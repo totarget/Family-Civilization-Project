@@ -132,7 +132,7 @@ Its ultimate vision is simple:
 
 ## Author / 作者
 
-**Liu Gang / 刘岗**
+**David / 刘岗**
 
 Founder of the Family Civilization Project.  
 A witness, builder, and lifelong practitioner of family civilization.
