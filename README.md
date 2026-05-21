@@ -28,39 +28,38 @@ If a semantic conflict appears in later use, the English root definition should 
 
 dictionary/
   README.md
-  entries/
-    001-human-being.md
-    002-humanity-as-an-end-in-itself.md
-    ...
-    022-family-authority-mechanism.md
+  001-human-being.md
+  002-humanity-as-an-end-in-itself.md
+  ...
+  022-family-authority-mechanism.md
 ```
 
 ## Entries
 
 | No. | English | 中文 | File |
 |---:|---|---|---|
-| 001 | Human Being | 人 | [entries/001-human-being.md](entries/001-human-being.md) |
-| 002 | Humanity as an End in Itself | 人是目的 | [entries/002-humanity-as-an-end-in-itself.md](entries/002-humanity-as-an-end-in-itself.md) |
-| 003 | Love | 爱 | [entries/003-love.md](entries/003-love.md) |
-| 004 | Freedom | 自由 | [entries/004-freedom.md](entries/004-freedom.md) |
-| 005 | Happiness | 幸福 | [entries/005-happiness.md](entries/005-happiness.md) |
-| 006 | Dignity | 尊严 | [entries/006-dignity.md](entries/006-dignity.md) |
-| 007 | Education | 教育 | [entries/007-education.md](entries/007-education.md) |
-| 008 | Family | 家庭 | [entries/008-family.md](entries/008-family.md) |
-| 009 | Child | 孩子 | [entries/009-child.md](entries/009-child.md) |
-| 010 | Civilization | 文明 | [entries/010-civilization.md](entries/010-civilization.md) |
-| 011 | Family Civilization | 家庭文明 | [entries/011-family-civilization.md](entries/011-family-civilization.md) |
-| 012 | Family Civilization Project | 家庭文明工程 | [entries/012-family-civilization-project.md](entries/012-family-civilization-project.md) |
-| 013 | Power | 权力 | [entries/013-power.md](entries/013-power.md) |
-| 014 | Artificial Intelligence | 人工智能 | [entries/014-artificial-intelligence.md](entries/014-artificial-intelligence.md) |
-| 015 | Civilization System | 文明系统 | [entries/015-civilization-system.md](entries/015-civilization-system.md) |
-| 016 | Relationship | 关系 | [entries/016-relationship.md](entries/016-relationship.md) |
-| 017 | Suffering | 苦 | [entries/017-suffering.md](entries/017-suffering.md) |
-| 018 | Compassion | 慈悲 | [entries/018-compassion.md](entries/018-compassion.md) |
-| 019 | Filial Piety | 孝顺 | [entries/019-filial-piety.md](entries/019-filial-piety.md) |
-| 020 | Moral Coercion | 道德绑架 | [entries/020-moral-coercion.md](entries/020-moral-coercion.md) |
-| 021 | Morality | 道德 | [entries/021-morality.md](entries/021-morality.md) |
-| 022 | Family Authority Mechanism | 家庭权力机制 | [entries/022-family-authority-mechanism.md](entries/022-family-authority-mechanism.md) |
+| 001 | Human Being | 人 | [001-human-being.md](001-human-being.md) |
+| 002 | Humanity as an End in Itself | 人是目的 | [002-humanity-as-an-end-in-itself.md](002-humanity-as-an-end-in-itself.md) |
+| 003 | Love | 爱 | [003-love.md](003-love.md) |
+| 004 | Freedom | 自由 | [004-freedom.md](004-freedom.md) |
+| 005 | Happiness | 幸福 | [005-happiness.md](005-happiness.md) |
+| 006 | Dignity | 尊严 | [006-dignity.md](006-dignity.md) |
+| 007 | Education | 教育 | [007-education.md](007-education.md) |
+| 008 | Family | 家庭 | [008-family.md](008-family.md) |
+| 009 | Child | 孩子 | [009-child.md](009-child.md) |
+| 010 | Civilization | 文明 | [010-civilization.md](010-civilization.md) |
+| 011 | Family Civilization | 家庭文明 | [011-family-civilization.md](011-family-civilization.md) |
+| 012 | Family Civilization Project | 家庭文明工程 | [012-family-civilization-project.md](012-family-civilization-project.md) |
+| 013 | Power | 权力 | [013-power.md](013-power.md) |
+| 014 | Artificial Intelligence | 人工智能 | [014-artificial-intelligence.md](014-artificial-intelligence.md) |
+| 015 | Civilization System | 文明系统 | [015-civilization-system.md](015-civilization-system.md) |
+| 016 | Relationship | 关系 | [016-relationship.md](016-relationship.md) |
+| 017 | Suffering | 苦 | [017-suffering.md](017-suffering.md) |
+| 018 | Compassion | 慈悲 | [018-compassion.md](018-compassion.md) |
+| 019 | Filial Piety | 孝顺 | [019-filial-piety.md](019-filial-piety.md) |
+| 020 | Moral Coercion | 道德绑架 | [020-moral-coercion.md](020-moral-coercion.md) |
+| 021 | Morality | 道德 | [021-morality.md](021-morality.md) |
+| 022 | Family Authority Mechanism | 家庭权力机制 | [022-family-authority-mechanism.md](022-family-authority-mechanism.md) |
 
 
 ## Version Notes
