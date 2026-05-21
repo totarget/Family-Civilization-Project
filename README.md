@@ -1,141 +1,75 @@
-# Family Civilization Project
+# Human Civilization Dictionary / 人类文明词典
 
-## 家庭文明工程 / Family Civilization Project
+This dictionary is not an appendix to the Family Civilization Project.
 
-**Family Civilization Project** is a long-term open project dedicated to rebuilding family relationships, human dignity, healthy personality, emotional safety, and AI-assisted relationship civilization.
+It is the linguistic constitution of the broader civilization project.
 
-**家庭文明工程** 是一个长期开放的文明工程，致力于重建家庭关系、人格尊严、亲子文明、关系文明，以及 AI 辅助的人类幸福系统。
+Its purpose is to define the foundational words that will guide future books, videos, courses, AI systems, public discussions, and the long-term development of Family Civilization.
 
----
+In this dictionary, English is treated as the root definition language, and Chinese is treated as a native civilizational expression for Chinese-language propagation. The Chinese text is not a mechanical translation; it is a parallel definition designed for clarity, emotional resonance, and public communication.
 
-## Core Principle / 核心原则
+If a semantic conflict appears in later use, the English root definition should be treated as the primary conceptual anchor, while the Chinese definition should serve as the communication layer.
 
-> **Human beings are ends, not tools.**  
-> **人是目的，不是工具。**
+## 中文说明
 
-Children are not tools of parents.  
-Partners are not tools of each other.  
-Ordinary people are not tools of systems.  
-AI should never turn human beings into tools.
+《人类文明词典》不是《家庭文明工程》的附录。
 
-孩子不是父母的工具。  
-伴侣不是彼此的工具。  
-普通人不是系统的工具。  
-AI 也不应该把人变成工具。
+它是整个文明工程的语言宪法。
 
-The highest purpose of civilization is to help every person live with dignity, freedom, love, meaning, and happiness.
+未来，所有书籍、视频、课程、AI系统、文明讨论，都应优先引用这套定义。
 
-文明的最高目的，是帮助每一个人获得尊严、自由、爱、意义和幸福。
+因为谁定义语言，谁就定义文明。
 
----
+本词典采用“英文在前、中文在后”的结构。英文不是中文的翻译，而是以更接近现代文明哲学、法哲学、自由主义、人权体系、AI伦理和人格尊严传统的方式进行根定义；中文则是面向中文世界的原生表达和传播定义。
 
-## Mission / 使命
-
-The mission of the Family Civilization Project is:
-
-1. To help families move from control to respect.
-2. To help parents stop hurting children in the name of love.
-3. To help children grow into complete human beings with dignity, boundaries, emotional health, and independent ability.
-4. To help couples rebuild relationships based on equality, respect, responsibility, and love.
-5. To build an open, evolving, AI-assisted civilization system for healthier human relationships.
-
-家庭文明工程的使命是：
-
-1. 帮助家庭从控制走向尊重。
-2. 帮助父母停止以爱的名义伤害孩子。
-3. 帮助孩子成长为有人格、有边界、有情感能力、有独立能力的完整的人。
-4. 帮助夫妻重建基于平等、尊重、责任和爱的关系。
-5. 建立一个开放、进化、AI 辅助的关系文明系统。
-
----
-
-## Why This Project Exists / 为什么要建立这个工程
-
-Human civilization has created powerful technologies, industries, wealth, and artificial intelligence. But many people still suffer deeply inside families and intimate relationships.
-
-人类已经创造了强大的科技、工业、财富和人工智能，但许多人依然在家庭和亲密关系中承受深重痛苦。
-
-Many families are still built on control, fear, obedience, emotional suppression, moral blackmail, and intergenerational trauma.
-
-许多家庭依然建立在控制、恐惧、服从、情感压抑、道德绑架和代际创伤之上。
-
-The Family Civilization Project believes that the next stage of civilization must include relationship civilization. And the starting point of relationship civilization is the family.
-
-家庭文明工程相信，人类文明的下一阶段，必须包括关系文明。而关系文明的起点，就是家庭。
-
----
-
-## Project Structure / 项目结构
+## Directory Structure
 
 ```text
-Family-Civilization-Project/
-│
-├── README.md
-│
-├── manifesto/
-│   ├── family-civilization-preface-zh.md
-│   └── family-civilization-preface-en.md
-│
-├── videos/
-│   └── youtube-long-videos/
-│       └── 001-why-rebuild-family-civilization.md
-│
-├── books/
-│   ├── volume-01-relationships/
-│   ├── volume-02-abilities/
-│   └── volume-03-business/
-│
-├── dictionary/
-│   └── human-civilization-dictionary.md
-│
-├── ai-civilization/
-│   └── family-civilization-ai.md
-│
-└── website/
-    └── familyciv-com-plan.md
+
+dictionary/
+  README.md
+  001-human-being.md
+  002-humanity-as-an-end-in-itself.md
+  ...
+  022-family-authority-mechanism.md
 ```
 
----
+## Entries
 
-## First Publications / 第一批核心文件
+| No. | English | 中文 | File |
+|---:|---|---|---|
+| 001 | Human Being | 人 | [001-human-being.md](001-human-being.md) |
+| 002 | Humanity as an End in Itself | 人是目的 | [002-humanity-as-an-end-in-itself.md](002-humanity-as-an-end-in-itself.md) |
+| 003 | Love | 爱 | [003-love.md](003-love.md) |
+| 004 | Freedom | 自由 | [004-freedom.md](004-freedom.md) |
+| 005 | Happiness | 幸福 | [005-happiness.md](005-happiness.md) |
+| 006 | Dignity | 尊严 | [006-dignity.md](006-dignity.md) |
+| 007 | Education | 教育 | [007-education.md](007-education.md) |
+| 008 | Family | 家庭 | [008-family.md](008-family.md) |
+| 009 | Child | 孩子 | [009-child.md](009-child.md) |
+| 010 | Civilization | 文明 | [010-civilization.md](010-civilization.md) |
+| 011 | Family Civilization | 家庭文明 | [011-family-civilization.md](011-family-civilization.md) |
+| 012 | Family Civilization Project | 家庭文明工程 | [012-family-civilization-project.md](012-family-civilization-project.md) |
+| 013 | Power | 权力 | [013-power.md](013-power.md) |
+| 014 | Artificial Intelligence | 人工智能 | [014-artificial-intelligence.md](014-artificial-intelligence.md) |
+| 015 | Civilization System | 文明系统 | [015-civilization-system.md](015-civilization-system.md) |
+| 016 | Relationship | 关系 | [016-relationship.md](016-relationship.md) |
+| 017 | Suffering | 苦 | [017-suffering.md](017-suffering.md) |
+| 018 | Compassion | 慈悲 | [018-compassion.md](018-compassion.md) |
+| 019 | Filial Piety | 孝顺 | [019-filial-piety.md](019-filial-piety.md) |
+| 020 | Moral Coercion | 道德绑架 | [020-moral-coercion.md](020-moral-coercion.md) |
+| 021 | Morality | 道德 | [021-morality.md](021-morality.md) |
+| 022 | Family Authority Mechanism | 家庭权力机制 | [022-family-authority-mechanism.md](022-family-authority-mechanism.md) |
 
-- `manifesto/family-civilization-preface-zh.md`  
-  中文序言：家庭文明工程的发心、使命与愿景
 
-- `manifesto/family-civilization-preface-en.md`  
-  English Preface: the native English introduction to the Family Civilization Project
+## Version Notes
 
-- `videos/youtube-long-videos/001-why-rebuild-family-civilization.md`  
-  YouTube 第一条长视频文案：《我为什么决定用余生，重建家庭文明》
+- Entries 001–021 are organized from the previously discussed Human Civilization Dictionary material.
+- Entry 016, **Relationship / 关系**, fills the numbering gap between 015 and 017 and serves as a foundational bridge for the Family Civilization Project.
+- Entry 022, **Family Authority Mechanism / 家庭权力机制**, is newly added based on the discussion that family authority should come not from blood, parental status, age, or economic power, but from shared rules, dignity, responsibility, and mutual respect.
 
----
+## Principle
 
-## Long-Term Vision / 长期愿景
+Human beings must never be treated merely as means, but always as ends in themselves.
 
-This project aims to become a long-term public archive, writing system, video system, book system, and AI-assisted civilization infrastructure for family and relationship civilization.
-
-本项目希望逐步成为一个长期公共档案、写作系统、视频系统、图书系统，以及 AI 辅助的家庭文明与关系文明基础设施。
-
-Its ultimate vision is simple:
-
-> Let those who love one another stop hurting one another.  
-> Let every person truly live as a person.  
-> Let every person have the possibility of happiness.
-
-它最终的愿景很简单：
-
-> 让相爱的人，不再相互伤害。  
-> 让每一个人，都真正作为人而活着。  
-> 让每一个人，都拥有获得幸福的可能。
-
----
-
-## Author / 作者
-
-**David / 刘岗**
-
-Founder of the Family Civilization Project.  
-A witness, builder, and lifelong practitioner of family civilization.
-
-家庭文明工程发起人。  
-家庭文明的见证者、建设者与终身实践者。
+家庭文明的根本原则是：人是目的，不是手段。
