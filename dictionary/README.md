@@ -1,75 +1,139 @@
-# Human Civilization Dictionary / 人类文明词典
+# Family Civilization Dictionary
+# 家庭文明词典
 
-This dictionary is not an appendix to the Family Civilization Project.
+> Former name / 原名：Human Civilization Dictionary / 人类文明词典  
+> Current name / 现名：Family Civilization Dictionary / 家庭文明词典
 
-It is the linguistic constitution of the broader civilization project.
+《家庭文明词典》不是《家庭文明工程》的附录，  
+而是整个家庭文明工程的核心语言系统。
 
-Its purpose is to define the foundational words that will guide future books, videos, courses, AI systems, public discussions, and the long-term development of Family Civilization.
+它用于为以下内容提供统一、稳定、可持续进化的概念定义：
 
-In this dictionary, English is treated as the root definition language, and Chinese is treated as a native civilizational expression for Chinese-language propagation. The Chinese text is not a mechanical translation; it is a parallel definition designed for clarity, emotional resonance, and public communication.
+- 书籍写作；
+- 短视频与长视频；
+- 公众号与 Substack 文章；
+- 网站 familyciv.com；
+- 未来 AI 家庭文明顾问系统；
+- 家庭文明课程与实践系统；
+- 全球传播中的中英文核心术语。
 
-If a semantic conflict appears in later use, the English root definition should be treated as the primary conceptual anchor, while the Chinese definition should serve as the communication layer.
+The Family Civilization Dictionary is not merely an appendix to the Family Civilization Project.  
+It is the core conceptual and linguistic system of the project.
 
-## 中文说明
+Its purpose is to define the key terms through which family civilization, relationship civilization, human dignity, love, boundaries, personhood, authority, repair, and AI-assisted civilizational development can be discussed, transmitted, and practiced across generations.
 
-《人类文明词典》不是《家庭文明工程》的附录。
+---
 
-它是整个文明工程的语言宪法。
+## Naming Update / 命名更新
 
-未来，所有书籍、视频、课程、AI系统、文明讨论，都应优先引用这套定义。
+从现在开始，词典统一命名为：
 
-因为谁定义语言，谁就定义文明。
+**Family Civilization Dictionary / 家庭文明词典**
 
-本词典采用“英文在前、中文在后”的结构。英文不是中文的翻译，而是以更接近现代文明哲学、法哲学、自由主义、人权体系、AI伦理和人格尊严传统的方式进行根定义；中文则是面向中文世界的原生表达和传播定义。
+原因是：
 
-## Directory Structure
+“人类文明词典”更宏大，  
+但当前阶段的核心任务是围绕家庭、关系、人格、爱、边界、自由、尊严、幸福与 AI 协作来建立基础概念。
+
+“家庭文明词典”更贴近《家庭文明工程》的主线，  
+也更适合作为 familyciv.com 的长期基础语义库。
+
+---
+
+## Suggested Structure / 建议目录结构
 
 ```text
-
 dictionary/
-  README.md
-  001-human-being.md
-  002-humanity-as-an-end-in-itself.md
-  ...
-  022-family-authority-mechanism.md
+├── README.md
+├── family-civilization-dictionary.md
+└── entries/
+    ├── 001-...
+    ├── 002-...
+    ├── ...
+    ├── 022-family-authority-mechanism.md
+    └── 023-love-harm-mechanism.md
 ```
 
-## Entries
+---
 
-| No. | English | 中文 | File |
-|---:|---|---|---|
-| 001 | Human Being | 人 | [001-human-being.md](001-human-being.md) |
-| 002 | Humanity as an End in Itself | 人是目的 | [002-humanity-as-an-end-in-itself.md](002-humanity-as-an-end-in-itself.md) |
-| 003 | Love | 爱 | [003-love.md](003-love.md) |
-| 004 | Freedom | 自由 | [004-freedom.md](004-freedom.md) |
-| 005 | Happiness | 幸福 | [005-happiness.md](005-happiness.md) |
-| 006 | Dignity | 尊严 | [006-dignity.md](006-dignity.md) |
-| 007 | Education | 教育 | [007-education.md](007-education.md) |
-| 008 | Family | 家庭 | [008-family.md](008-family.md) |
-| 009 | Child | 孩子 | [009-child.md](009-child.md) |
-| 010 | Civilization | 文明 | [010-civilization.md](010-civilization.md) |
-| 011 | Family Civilization | 家庭文明 | [011-family-civilization.md](011-family-civilization.md) |
-| 012 | Family Civilization Project | 家庭文明工程 | [012-family-civilization-project.md](012-family-civilization-project.md) |
-| 013 | Power | 权力 | [013-power.md](013-power.md) |
-| 014 | Artificial Intelligence | 人工智能 | [014-artificial-intelligence.md](014-artificial-intelligence.md) |
-| 015 | Civilization System | 文明系统 | [015-civilization-system.md](015-civilization-system.md) |
-| 016 | Relationship | 关系 | [016-relationship.md](016-relationship.md) |
-| 017 | Suffering | 苦 | [017-suffering.md](017-suffering.md) |
-| 018 | Compassion | 慈悲 | [018-compassion.md](018-compassion.md) |
-| 019 | Filial Piety | 孝顺 | [019-filial-piety.md](019-filial-piety.md) |
-| 020 | Moral Coercion | 道德绑架 | [020-moral-coercion.md](020-moral-coercion.md) |
-| 021 | Morality | 道德 | [021-morality.md](021-morality.md) |
-| 022 | Family Authority Mechanism | 家庭权力机制 | [022-family-authority-mechanism.md](022-family-authority-mechanism.md) |
+## Numbering Rule / 编号规则
 
+Each dictionary entry should use a stable three-digit number.
 
-## Version Notes
+每一个词典词条都应使用稳定的三位数编号。
 
-- Entries 001–021 are organized from the previously discussed Human Civilization Dictionary material.
-- Entry 016, **Relationship / 关系**, fills the numbering gap between 015 and 017 and serves as a foundational bridge for the Family Civilization Project.
-- Entry 022, **Family Authority Mechanism / 家庭权力机制**, is newly added based on the discussion that family authority should come not from blood, parental status, age, or economic power, but from shared rules, dignity, responsibility, and mutual respect.
+Example:
 
-## Principle
+示例：
 
-Human beings must never be treated merely as means, but always as ends in themselves.
+```text
+022-family-authority-mechanism.md
+023-love-harm-mechanism.md
+```
 
-家庭文明的根本原则是：人是目的，不是手段。
+The number should not be changed after publication, even if new concepts are later inserted conceptually between existing terms.
+
+词条一旦发布，编号尽量不再改变。  
+即使未来在概念逻辑上需要插入新的词条，也应继续使用新的顺序编号，而不是打乱已有编号。
+
+This keeps GitHub links stable and makes the dictionary easier to maintain as a long-term civilization archive.
+
+这样可以保持 GitHub 链接稳定，也便于把词典作为长期文明档案持续维护。
+
+---
+
+## Latest Entries / 最新词条
+
+- [022. Family Authority Mechanism / 家庭权力机制](entries/022-family-authority-mechanism.md)
+- [023. Love-Harm Mechanism / 爱的伤害机制](entries/023-love-harm-mechanism.md)
+
+---
+
+## Newly Added Entry / 本次新增词条
+
+### 023. Love-Harm Mechanism / 爱的伤害机制
+
+File:
+
+文件：
+
+```text
+entries/023-love-harm-mechanism.md
+```
+
+This term explains how love can become a source of harm when it is separated from personhood, boundaries, respect, emotional maturity, and the capacity to love.
+
+这个词条解释：当爱脱离了人格、边界、尊重、情绪成熟和爱的能力之后，原本应该带来幸福的爱，如何在关系中转化为伤害。
+
+Core idea:
+
+核心思想：
+
+> Love itself does not harm people.  
+> What turns love into harm is the absence of personhood, boundaries, respect, emotional maturity, and the capacity to love.
+
+> 爱本身不会伤人。  
+> 缺乏人格、边界、尊重、情绪成熟和爱的能力，才会把爱变成伤害。
+
+This entry should be read together with:
+
+这个词条应与以下词条共同阅读：
+
+- `022-family-authority-mechanism.md`
+- Future entries on boundaries, emotional safety, personhood, and control disguised as love.
+
+---
+
+## Core Principle / 核心原则
+
+> Whoever defines language defines civilization.  
+> 谁定义语言，谁就定义文明。
+
+家庭文明工程要长期建设的，  
+不仅是一套观点，  
+更是一套能够被传播、被实践、被 AI 理解、被后人继续发展的文明语言。
+
+The long-term task of the Family Civilization Dictionary is to preserve, refine, and evolve the language of family civilization so that future writing, videos, public speeches, courses, websites, and AI systems can share the same conceptual foundation.
+
+《家庭文明词典》的长期任务，是保存、打磨并持续进化家庭文明的语言系统，  
+让未来的书籍、视频、演讲、课程、网站和 AI 系统，都能共享同一套概念基础。
