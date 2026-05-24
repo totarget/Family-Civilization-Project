@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第69节）
 # Family Civilization Project — Volume I: Relationships (Section 69)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -214,12 +212,3 @@ A truly strong parent has the capacity to lead the child in building a better fa
 When the parent-child relationship moves from control to co-creation,  
 the family can transform from a power structure into a community of growth.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 069-the-parent-child-relationship-must-move-from-control-to-co-creation.md
-```

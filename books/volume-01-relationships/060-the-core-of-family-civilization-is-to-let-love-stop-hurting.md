@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第60节）
 # Family Civilization Project — Volume I: Relationships (Section 60)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -212,13 +210,3 @@ Because the beginning of family civilization
 is not a family without conflict,  
 but a family willing to stop harming, willing to learn love, and willing to repair relationships.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 060-the-core-of-family-civilization-is-to-let-love-stop-hurting.md
-```

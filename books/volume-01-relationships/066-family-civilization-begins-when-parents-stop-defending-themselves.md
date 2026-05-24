@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第66节）
 # Family Civilization Project — Volume I: Relationships (Section 66)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -195,12 +193,3 @@ The most important civilized moment in a family
 is often not when parents explain more principles,  
 but when they finally put down their defense and truly hear the child’s pain.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 066-family-civilization-begins-when-parents-stop-defending-themselves.md
-```

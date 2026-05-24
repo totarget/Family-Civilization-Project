@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第70节）
 # Family Civilization Project — Volume I: Relationships (Section 70)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -226,12 +224,3 @@ Ultimately, it seeks a world where those who love one another no longer hurt one
 where every person can truly live as a person,  
 and where every person has the possibility of happiness.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 070-family-civilization-is-the-beginning-of-a-new-human-relationship-civilization.md
-```

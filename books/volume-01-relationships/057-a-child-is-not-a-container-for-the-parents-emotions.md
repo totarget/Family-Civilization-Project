@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第57节）
 # Family Civilization Project — Volume I: Relationships (Section 57)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -197,13 +195,3 @@ A child is a human being who is growing.
 Only when parents take their emotions back from the child  
 can the parent-child relationship truly begin to become civilized.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 057-a-child-is-not-a-container-for-the-parents-emotions.md
-```

@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第071节）
 # Family Civilization Project — Volume I: Relationships (Section 071)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -180,12 +178,3 @@ Healing is also for those we love.
 Only when we stop passing pain to them  
 does love truly have the chance to become love.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 071-healing-begins-when-we-stop-passing-pain-to-those-we-love.md
-```

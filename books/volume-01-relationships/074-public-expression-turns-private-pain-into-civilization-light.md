@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第074节）
 # Family Civilization Project — Volume I: Relationships (Section 074)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -200,12 +198,3 @@ can finally speak truth with dignity, reason, and compassion.
 At that moment, private pain is no longer only pain.  
 It becomes light that illuminates others.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 074-public-expression-turns-private-pain-into-civilization-light.md
-```

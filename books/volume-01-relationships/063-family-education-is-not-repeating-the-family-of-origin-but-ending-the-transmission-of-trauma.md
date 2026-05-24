@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第63节）
 # Family Civilization Project — Volume I: Relationships (Section 63)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -194,13 +192,3 @@ It asks us to transform pain into awakening, awakening into responsibility, and 
 If a wounded person can stop passing pain to his child,  
 he is already creating civilization.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 063-family-education-is-not-repeating-the-family-of-origin-but-ending-the-transmission-of-trauma.md
-```

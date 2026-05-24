@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第078节）
 # Family Civilization Project — Volume I: Relationships (Section 078)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -223,12 +221,3 @@ Family civilization begins from one person’s pain,
 passes through expression, understanding, practice, and communication,  
 and ultimately moves toward the possibility of happiness for more people.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 078-from-one-family-to-many-families-the-path-of-civilization-spread.md
-```

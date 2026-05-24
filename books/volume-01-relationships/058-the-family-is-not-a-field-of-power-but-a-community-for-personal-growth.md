@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第58节）
 # Family Civilization Project — Volume I: Relationships (Section 58)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -180,13 +178,3 @@ and spouses no longer need cold wars to protect dignity.
 
 Only then does home truly begin to become home.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 058-the-family-is-not-a-field-of-power-but-a-community-for-personal-growth.md
-```

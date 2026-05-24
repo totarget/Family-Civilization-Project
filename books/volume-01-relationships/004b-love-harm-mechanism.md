@@ -2,9 +2,6 @@
 ## 第四节之后增补：爱的伤害机制
 ## Supplement After Section IV: The Mechanism by Which Love Becomes Harm
 
-> 建议插入位置：第一卷《关系篇》第四节《爱，不是控制》之后、第五节《边界，是真正文明关系的开始》之前。  
-> GitHub 文件名建议：`004b-love-harm-mechanism.md`  
-> 未来正式排版时，可将本节作为新的第五节，后续章节顺延。
 
 ---
 

@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第61节）
 # Family Civilization Project — Volume I: Relationships (Section 61)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -178,13 +176,3 @@ When a parent is willing to learn, the family gains an entrance to change.
 When a parent is willing to reflect, the child gains a chance not to repeat trauma.  
 When a parent is willing to enter the practice of family civilization, love can finally move from instinct toward civilization.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 061-parenthood-also-requires-learning.md
-```

@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第079节）
 # Family Civilization Project — Volume I: Relationships (Section 079)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -231,12 +229,3 @@ May those who love one another no longer hurt one another.
 May every person truly live as a person.  
 May every person have the possibility of happiness.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 079-the-family-civilization-project-is-a-lifelong-vow.md
-```

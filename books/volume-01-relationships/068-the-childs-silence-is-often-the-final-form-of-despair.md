@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第68节）
 # Family Civilization Project — Volume I: Relationships (Section 68)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -210,12 +208,3 @@ It may be the sound of a soul slowly closing inside the family.
 Family civilization means helping parents learn to hear  
 before the child closes completely.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 068-the-childs-silence-is-often-the-final-form-of-despair.md
-```

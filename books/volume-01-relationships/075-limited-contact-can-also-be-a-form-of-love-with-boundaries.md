@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第075节）
 # Family Civilization Project — Volume I: Relationships (Section 075)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -204,12 +202,3 @@ but also respects a person’s right to protect himself within love.
 Limited contact is not necessarily the failure of parent-child relationship.  
 In some cases, it is precisely the beginning of civilized self-protection and the beginning of stopping further harm.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 075-limited-contact-can-also-be-a-form-of-love-with-boundaries.md
-```

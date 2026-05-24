@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第59节）
 # Family Civilization Project — Volume I: Relationships (Section 59)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -211,13 +209,3 @@ to “My child comes into the world through me, but will ultimately belong to hi
 When parents can accept this,  
 the parent-child relationship truly begins to move from control toward civilization.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 059-the-goal-of-the-parent-child-relationship-is-not-obedience-but-wholeness.md
-```

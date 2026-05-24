@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第073节）
 # Family Civilization Project — Volume I: Relationships (Section 073)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -187,12 +185,3 @@ But AI can help the family become a family in a more civilized way.
 
 This is the new possibility of family civilization in the AI era.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 073-ai-can-become-a-civilization-assistant-for-family-relationships.md
-```

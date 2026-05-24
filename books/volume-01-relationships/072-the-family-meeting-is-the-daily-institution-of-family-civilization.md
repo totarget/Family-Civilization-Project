@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第072节）
 # Family Civilization Project — Volume I: Relationships (Section 072)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -208,12 +206,3 @@ It must enter daily institutions.
 
 And the family meeting is the first cornerstone that brings civilization into family life.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 072-the-family-meeting-is-the-daily-institution-of-family-civilization.md
-```

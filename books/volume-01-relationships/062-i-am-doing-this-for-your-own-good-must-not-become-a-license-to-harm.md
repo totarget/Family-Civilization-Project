@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第62节）
 # Family Civilization Project — Volume I: Relationships (Section 62)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -190,13 +188,3 @@ The beginning of family civilization
 is the movement from “I am doing this for your good”  
 to “I am willing to learn what is truly good for you.”
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 062-i-am-doing-this-for-your-own-good-must-not-become-a-license-to-harm.md
-```

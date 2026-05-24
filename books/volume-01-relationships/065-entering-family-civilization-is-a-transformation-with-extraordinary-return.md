@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第65节）
 # Family Civilization Project — Volume I: Relationships (Section 65)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -224,13 +222,3 @@ This is why we must practice the Family Civilization Project.
 Because the civilization of a family  
 may be the beginning of a person’s lifelong happiness.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 065-entering-family-civilization-is-a-transformation-with-extraordinary-return.md
-```

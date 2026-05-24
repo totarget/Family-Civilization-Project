@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第67节）
 # Family Civilization Project — Volume I: Relationships (Section 67)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -204,12 +202,3 @@ And gives the family the possibility of beginning again.
 Family civilization is not a family without harm.  
 It is a family where, after harm occurs, someone is willing to take responsibility, someone is willing to repair, and someone is willing to bring love back into the relationship.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 067-a-parent-who-can-apologize-gives-the-child-the-right-to-heal.md
-```

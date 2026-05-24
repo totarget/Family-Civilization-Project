@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第56节）
 # Family Civilization Project — Volume I: Relationships (Section 56)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -175,13 +173,3 @@ When a child can finally become himself freely,
 this is not the failure of the parents.  
 It is the completion of parental love.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── sections/
-        └── 056-true-parental-love-is-not-possession-but-fulfillment.md
-```

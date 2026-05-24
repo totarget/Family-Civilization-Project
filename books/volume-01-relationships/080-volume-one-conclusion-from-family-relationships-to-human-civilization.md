@@ -1,8 +1,6 @@
 # 《家庭文明工程》第一卷：关系篇（第080节）
 # Family Civilization Project — Volume I: Relationships (Section 080)
 
-> 中文 / English bilingual Markdown  
-> 适合 GitHub 上传、公开连载、后续书稿整理
 
 ---
 
@@ -117,10 +115,10 @@
 它不是一本书的结束，  
 而是家庭文明工程真正展开的起点。
 
-接下来，我们还要继续讨论能力，  
+第二卷《能力篇》将继续讨论能力，  
 讨论一个人如何在关系之外建立人格、行动力、创造力、自由意志和幸福能力。
 
-我们还要讨论商业，  
+第三卷《商业篇》将继续讨论商业，  
 讨论如何让契约、责任、合作、价值创造和财富，服务于人的自由和尊严。
 
 但无论走到哪里，关系都是起点。
@@ -257,12 +255,3 @@ And he must also regain love, dignity, and vitality in relationships.
 Volume One ends here.  
 But the road of family civilization has only just begun.
 
----
-
-## GitHub 建议路径 / Suggested GitHub Path
-
-```text
-family-civilization-project/
-└── volume-01-relationships/
-    └── 080-volume-one-conclusion-from-family-relationships-to-human-civilization.md
-```
