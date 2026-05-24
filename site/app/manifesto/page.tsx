@@ -1,31 +1,16 @@
 export default function ManifestoPage() {
   return (
-    <section className="section narrow">
-      <p className="eyebrow">Manifesto</p>
-      <h1>Family civilization begins at home.</h1>
-      <div className="panel">
-        <p className="lead">
-          The family is not a private kingdom. It is the first site of civilization.
-        </p>
-        <div className="quote">
-          人是目的，不是手段。<br />
-          The human being is an end, not a means.
-        </div>
-        <p>
-          The Family Civilization Project is a long-term effort to rebuild family
-          relationships through dignity, freedom, love, boundaries, repair, and
-          human-centered civilization.
-        </p>
-        <p>
-          Its deepest wish is simple: let those who love one another stop hurting one
-          another; let every person truly live as a person; let every person have the
-          possibility of happiness.
-        </p>
-        <p>
-          家庭文明工程的核心愿望很简单：让相爱的人不再互相伤害；让每一个人真正作为人而生活；
-          让每一个人都有获得幸福的可能。
-        </p>
+    <main className="container narrow">
+      <div className="kicker">Manifesto</div>
+      <h1>Family Civilization Project</h1>
+      <p className="lead">Humanity and AI, working together so every person can live with dignity, love, freedom, and happiness.</p>
+      <div className="prose">
+        <p>Humanity has built a magnificent technological civilization. Yet a more fundamental question remains unresolved: how can human beings truly be happy?</p>
+        <p>We have become extraordinarily skilled at creating tools, but not necessarily better at loving one another. We have learned how to increase productivity, but not necessarily how to respect a human soul.</p>
+        <p>The Family Civilization Project begins from one principle: human beings are ends, not means. Children are not tools of parents. Spouses are not tools of one another. No person should become another person’s possession, emotional container, or proof of value.</p>
+        <p>Family civilization is the beginning of relationship civilization. It seeks to help families move from control to respect, from harm to repair, from fear to freedom, and from broken inheritance to conscious reconstruction.</p>
+        <blockquote>让每一个人，都能够获得，真正的幸福！</blockquote>
       </div>
-    </section>
+    </main>
   );
 }

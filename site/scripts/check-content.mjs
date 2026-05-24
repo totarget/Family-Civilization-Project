@@ -1,24 +1,11 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs';
+import path from 'path';
 
-const candidates = [
-  path.join(process.cwd(), "content", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "books", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "content", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "volume-01-relationships"),
-];
-
-let found = false;
-
-for (const dir of candidates) {
-  if (fs.existsSync(dir)) {
-    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
-    console.log(`Found ${files.length} Markdown files in: ${dir}`);
-    found = true;
-  }
-}
-
-if (!found) {
-  console.log("No volume Markdown directory found yet.");
-  console.log("Put files in site/content/volume-01-relationships/ or ../books/volume-01-relationships/");
-}
+const root = process.cwd();
+const volumeDir = path.join(root, 'content', 'volume-01-relationships');
+const files = fs.readdirSync(volumeDir).filter((f) => f.endsWith('.md')).sort();
+const chapters = files.filter((f) => /^\d{3}[a-z]?/.test(f));
+console.log(`Volume I markdown files: ${files.length}`);
+console.log(`Chapter files: ${chapters.length}`);
+console.log(`First: ${chapters[0]}`);
+console.log(`Last: ${chapters[chapters.length - 1]}`);

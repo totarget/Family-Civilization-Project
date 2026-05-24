@@ -1,23 +1,17 @@
 export default function AboutPage() {
   return (
-    <section className="section narrow">
-      <p className="eyebrow">About</p>
-      <h1>A project born from pain, awakening, compassion, and action.</h1>
-      <div className="panel">
-        <p>
-          The Family Civilization Project began from lived experience of family pain and
-          the conviction that private suffering can be transformed into public light,
-          language, method, and action.
-        </p>
-        <p>
-          It is not a personal worship project. It is an open civilization project for all
-          families who wish to stop passing harm to the next generation.
-        </p>
-        <p>
-          家庭文明工程不是个人崇拜项目，而是一项开放的文明工程，献给所有希望停止伤害传递、
-          重建家庭关系、让人真正作为人而生活的家庭。
-        </p>
+    <main className="container narrow">
+      <div className="kicker">About</div>
+      <h1>About the Author</h1>
+      <div className="prose">
+        <h2>Author / 作者</h2>
+        <p><strong>David / 刘岗</strong></p>
+        <p>Founder of the Family Civilization Project.<br />A founder, builder, and lifelong practitioner of family civilization.</p>
+        <p>家庭文明工程发起人。<br />家庭文明的提出者、建设者与终身实践者。</p>
+        <h2>Emotional Positioning / 情感定位</h2>
+        <p>I speak for all wounded and silenced children.</p>
+        <p>我是所有受过伤害、沉默无语的孩子的代言人。</p>
       </div>
-    </section>
+    </main>
   );
 }

@@ -1,114 +1,68 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs';
+import path from 'path';
 
-export type Chapter = {
-  number: number;
+export type ContentItem = {
   slug: string;
   filename: string;
-  titleZh: string;
-  titleEn: string;
+  title: string;
+  number?: string;
   content: string;
-  excerpt: string;
 };
 
-const VOLUME_01_CANDIDATE_DIRS = [
-  path.join(process.cwd(), "content", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "books", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "content", "volume-01-relationships"),
-  path.join(process.cwd(), "..", "volume-01-relationships"),
-];
+const contentRoot = path.join(process.cwd(), 'content');
 
-function getVolume01Dir(): string | null {
-  for (const dir of VOLUME_01_CANDIDATE_DIRS) {
-    if (fs.existsSync(dir)) return dir;
-  }
-  return null;
+function isMarkdown(filename: string) {
+  return filename.endsWith('.md') && !filename.startsWith('.');
 }
 
-function normalizeSlug(filename: string): string {
-  return filename.replace(/\.md$/, "");
-}
-
-function getNumber(filename: string): number {
-  const match = filename.match(/^(\d{3})-/);
-  return match ? Number(match[1]) : 999;
-}
-
-function cleanHeading(line: string): string {
-  return line.replace(/^#+\s*/, "").trim();
-}
-
-function extractTitles(content: string, fallback: string): { titleZh: string; titleEn: string } {
-  const headings = content
-    .split(/\r?\n/)
-    .filter((line) => /^#{1,2}\s+/.test(line))
-    .map(cleanHeading)
-    .filter((line) => !line.toLowerCase().includes("github"));
-
-  const zh = headings.find((h) => /[\u4e00-\u9fff]/.test(h));
-  const en = headings.find((h) => !/[\u4e00-\u9fff]/.test(h) && /[a-zA-Z]/.test(h));
-
-  const fallbackTitle = fallback
-    .replace(/\.md$/, "")
-    .replace(/^\d{3}-/, "")
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (m) => m.toUpperCase());
-
-  return {
-    titleZh: zh || fallbackTitle,
-    titleEn: en || fallbackTitle,
-  };
-}
-
-function extractExcerpt(content: string): string {
-  const plain = content
-    .replace(/^#+\s+.*$/gm, "")
-    .replace(/```[\s\S]*?```/g, "")
-    .replace(/[*_>`#-]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-
-  return plain.slice(0, 180);
-}
-
-export function getVolume01Chapters(): Chapter[] {
-  const dir = getVolume01Dir();
-  if (!dir) return [];
+function readDirectory(dirName: string): ContentItem[] {
+  const dir = path.join(contentRoot, dirName);
+  if (!fs.existsSync(dir)) return [];
 
   return fs
     .readdirSync(dir)
-    .filter((file) => /^\d{3}-.*\.md$/.test(file))
-    .sort((a, b) => getNumber(a) - getNumber(b))
+    .filter(isMarkdown)
+    .sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
     .map((filename) => {
       const fullPath = path.join(dir, filename);
-      const content = fs.readFileSync(fullPath, "utf-8");
-      const { titleZh, titleEn } = extractTitles(content, filename);
-      return {
-        number: getNumber(filename),
-        slug: normalizeSlug(filename),
-        filename,
-        titleZh,
-        titleEn,
-        content,
-        excerpt: extractExcerpt(content),
-      };
+      const content = fs.readFileSync(fullPath, 'utf8');
+      const slug = filename.replace(/\.md$/, '');
+      const number = filename.match(/^(\d{3}[a-z]?)/)?.[1];
+      const title = extractTitle(content, slug);
+      return { slug, filename, title, number, content };
     });
 }
 
-export function getChapterBySlug(slug: string): Chapter | null {
-  return getVolume01Chapters().find((chapter) => chapter.slug === slug) || null;
+export function getVolumeItems() {
+  return readDirectory('volume-01-relationships').filter((item) => /^\d{3}[a-z]?/.test(item.filename));
 }
 
-export function getAdjacentChapters(slug: string): { previous: Chapter | null; next: Chapter | null } {
-  const chapters = getVolume01Chapters();
-  const index = chapters.findIndex((chapter) => chapter.slug === slug);
+export function getVolumeItem(slug: string) {
+  return getVolumeItems().find((item) => item.slug === slug) ?? null;
+}
 
-  if (index === -1) {
-    return { previous: null, next: null };
-  }
+export function getDictionaryItems() {
+  return readDirectory('dictionary').filter((item) => /^\d{3}/.test(item.filename));
+}
 
-  return {
-    previous: index > 0 ? chapters[index - 1] : null,
-    next: index < chapters.length - 1 ? chapters[index + 1] : null,
-  };
+export function getDictionaryItem(slug: string) {
+  return getDictionaryItems().find((item) => item.slug === slug) ?? null;
+}
+
+export function getSpecialMarkdown(filename: string) {
+  const fullPath = path.join(contentRoot, 'volume-01-relationships', filename);
+  if (!fs.existsSync(fullPath)) return null;
+  const content = fs.readFileSync(fullPath, 'utf8');
+  return { filename, slug: filename.replace(/\.md$/, ''), title: extractTitle(content, filename), content };
+}
+
+export function extractTitle(content: string, fallback: string) {
+  const lines = content.split(/\r?\n/);
+  const heading = lines.find((line) => /^#\s+/.test(line.trim()));
+  if (heading) return heading.replace(/^#\s+/, '').trim();
+  return fallback
+    .replace(/\.md$/, '')
+    .replace(/^\d{3}[a-z]?[-_]?/, '')
+    .replace(/[-_]+/g, ' ')
+    .replace(/\b\w/g, (m) => m.toUpperCase());
 }

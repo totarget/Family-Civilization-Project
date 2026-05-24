@@ -1,31 +1,23 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const nav = [
-  { href: "/manifesto", label: "Manifesto" },
-  { href: "/books", label: "Books" },
-  { href: "/books/volume-01-relationships", label: "Volume I" },
-  { href: "/start-here", label: "Start Here" },
-  { href: "/about", label: "About" },
-  { href: "/videos", label: "Videos" },
-  { href: "/github", label: "GitHub" },
+  ['Manifesto', '/manifesto'],
+  ['Books', '/books'],
+  ['Volume I', '/books/volume-01-relationships'],
+  ['Dictionary', '/dictionary'],
+  ['Start Here', '/start-here'],
+  ['About', '/about'],
+  ['Videos', '/videos'],
+  ['GitHub', '/github']
 ];
 
-export function Header() {
+export default function Header() {
   return (
     <header className="site-header">
-      <Link href="/" className="brand">
-        <span className="brand-mark">家</span>
-        <span>
-          <strong>Family Civilization</strong>
-          <small>Project</small>
-        </span>
-      </Link>
-
+      <Link href="/" className="brand">家 Family Civilization Project</Link>
       <nav className="nav">
-        {nav.map((item) => (
-          <Link key={item.href} href={item.href}>
-            {item.label}
-          </Link>
+        {nav.map(([label, href]) => (
+          <Link href={href} key={href}>{label}</Link>
         ))}
       </nav>
     </header>
