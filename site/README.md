@@ -1,41 +1,34 @@
-# FamilyCiv.com Site Updated Package
+# FamilyCiv.com Site
 
-This `site/` directory is an updated Next.js website package for **familyciv.com**.
+This is the website for the Family Civilization Project / 家庭文明工程.
 
-It updates the website from the earlier 80-section version to the latest completed Volume I: Relationships first-draft structure, including:
+Deployment:
 
-- Volume I chapter files through Section 100
-- Chinese and English prefaces
-- Dynamic chapter pages
-- Dictionary pages for current entries 024–066
-- Updated Home, Books, Volume I, About, Start Here, Videos, GitHub, and Manifesto pages
-- Redirects from `/volume-01`, `/volume-i`, and `/relationships` to `/books/volume-01-relationships`
+```txt
+GitHub → Vercel → familyciv.com
+```
 
-## Deployment
-
-In Vercel, the project settings should remain:
+Vercel project settings:
 
 ```txt
 Root Directory: site
 Framework Preset: Next.js
 Build Command: npm run build
 Install Command: npm install
-Output Directory: leave blank / no override
+Output Directory: leave empty unless Vercel specifically requires otherwise
 ```
 
-## Upload
+This package preserves the uploaded `next.config.mjs` file exactly as provided.
 
-Replace the existing repository `site/` folder with this `site/` folder, commit, and push to GitHub. Vercel will rebuild automatically.
+## Main Structure
 
-## Important Routes
-
-- `/`
-- `/manifesto`
-- `/books`
-- `/books/volume-01-relationships`
-- `/books/volume-01-relationships/096-ai-family-civilization-advisor`
-- `/dictionary`
-- `/start-here`
-- `/about`
-- `/videos`
-- `/github`
+- `/` — Home page with the original Humans Are Ends logo centered in the hero section.
+- `/humans-are-ends` — Core philosophy: 人是目的，不是手段 / Humans Are Ends, Not Means.
+- `/books` — Book system. Volume I is listed under Books.
+- `/books/volume-01-relationships` — Volume I: Relationships / 第一卷《关系篇》.
+- `/dictionary` — Human Civilization Dictionary.
+- `/manifesto` — Manifesto.
+- `/start-here` — Entry guide.
+- `/about` — About the project and author.
+- `/videos` — Video archive entry.
+- `/github` — GitHub archive entry.

@@ -66,3 +66,33 @@ p { margin: 0 0 16px; }
   .site-header { align-items: flex-start; flex-direction: column; padding: 14px 18px; }
   .nav { gap: 10px; }
 }
+
+.centered-hero { text-align: center; }
+.center { margin-left: auto; margin-right: auto; }
+.center-actions { justify-content: center; }
+.home-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 28px;
+}
+.home-logo {
+  width: min(360px, 72vw);
+  height: auto;
+  display: block;
+  border-radius: 28px;
+  box-shadow: 0 24px 70px rgba(20, 15, 10, .14);
+  background: #111;
+}
+.philosophy-band {
+  background: #111;
+  color: #f7f4ee;
+  border-radius: 34px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.philosophy-band .kicker,
+.philosophy-band .muted { color: #d2c8b6; }
+.philosophy-band .lead { color: #fff8ec; }
+.philosophy-band .button.secondary { border-color: #f7f4ee; color: #f7f4ee; }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 44px 0; }
