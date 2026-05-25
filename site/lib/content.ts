@@ -1,3 +1,4 @@
+
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -5,23 +6,18 @@ import { remark } from "remark";
 import html from "remark-html";
 import type { Lang } from "@/lib/i18n";
 
-const root = process.cwd();
+export type ContentItem = {
+  slug: string;
+  filename: string;
+  title: string;
+  number?: string;
+  body: string;
+};
 
-const possibleVolumeDirs = [
-  path.join(root, "content", "volume-01-relationships"),
-  path.join(root, "..", "books", "volume-01-relationships"),
-  path.join(root, "..", "content", "volume-01-relationships"),
-  path.join(root, "..", "volume-01-relationships"),
-];
+const contentRoot = path.join(process.cwd(), "content");
 
-const possibleDictionaryDirs = [
-  path.join(root, "..", "dictionary", "entries"),
-  path.join(root, "..", "dictionary"),
-  path.join(root, "content", "dictionary"),
-];
-
-function firstExistingDir(dirs: string[]) {
-  return dirs.find((dir) => fs.existsSync(dir) && fs.statSync(dir).isDirectory());
+function isMarkdown(filename: string) {
+  return filename.endsWith(".md") && !filename.startsWith(".");
 }
 
 function cleanTitle(line: string) {
@@ -29,125 +25,107 @@ function cleanTitle(line: string) {
 }
 
 function firstHeading(text: string) {
-  const line = text.split(/\r?\n/).find((l) => /^#\s+/.test(l));
+  const line = text.split(/\r?\n/).find((l) => /^#\s+/.test(l.trim()));
   return line ? cleanTitle(line) : "";
 }
 
-function stripMainHeadings(text: string) {
+function headingsBeforeMarkers(content: string) {
+  const marker = content.search(/^##\s*(中文版|中文正文|中文|Chinese Version|English Version|English|英文版|英文)\s*$/im);
+  const head = marker >= 0 ? content.slice(0, marker) : content;
+  return head.split(/\r?\n/).filter((l) => /^#\s+/.test(l.trim())).map(cleanTitle);
+}
+
+function stripHeadingsAndMarkers(text: string) {
   return text
     .replace(/^#\s+.*$/gm, "")
+    .replace(/^##\s*(中文版|中文正文|中文|Chinese Version|English Version|English|英文版|英文)\s*$/gim, "")
     .replace(/^---\s*$/gm, "")
+    .replace(/^English Version\s*$/gim, "")
+    .replace(/^中文版\s*$/gim, "")
     .trim();
 }
 
-export function slugFromFilename(filename: string) {
-  return filename.replace(/\.mdx?$/, "");
-}
-
-export function getVolumeFiles() {
-  const dir = firstExistingDir(possibleVolumeDirs);
-  if (!dir) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((name) => /^\d{3}-.+\.mdx?$/.test(name))
-    .sort()
-    .map((name) => path.join(dir, name));
-}
-
-export function splitBilingual(raw: string, lang: Lang) {
+export function splitBilingual(raw: string, lang: Lang, fallback: string) {
   const parsed = matter(raw);
   const content = parsed.content.trim();
+  const data = parsed.data as Record<string, string>;
+  const headings = headingsBeforeMarkers(content);
 
-  const zhMarker = /##\s*中文正文\s*/i;
-  const enMarker = /##\s*English Version\s*/i;
+  const enMatch = content.match(/^##\s*(English Version|English|英文版|英文)\s*$/im);
+  const zhMatch = content.match(/^##\s*(中文版|中文正文|中文|Chinese Version)\s*$/im);
+  const enIndex = enMatch && enMatch.index !== undefined ? enMatch.index : -1;
+  const zhIndex = zhMatch && zhMatch.index !== undefined ? zhMatch.index : -1;
 
-  if (zhMarker.test(content) && enMarker.test(content)) {
-    const beforeZh = content.split(zhMarker)[0];
-    const afterZh = content.split(zhMarker)[1];
-    const zhPart = afterZh.split(enMarker)[0].trim();
-    const enPart = content.split(enMarker)[1].trim();
+  let zhBody = content;
+  let enBody = content;
 
-    const headings = beforeZh
-      .split(/\r?\n/)
-      .filter((line) => /^#\s+/.test(line))
-      .map(cleanTitle);
-
-    const title = lang === "zh" ? headings[0] || firstHeading(zhPart) : headings[1] || firstHeading(enPart);
-    return {
-      title,
-      body: lang === "zh" ? zhPart : enPart,
-    };
+  if (enIndex >= 0) {
+    enBody = content.slice(enIndex).replace(/^##\s*(English Version|English|英文版|英文)\s*$/im, "");
+    if (zhIndex >= 0 && zhIndex < enIndex) {
+      zhBody = content.slice(zhIndex, enIndex).replace(/^##\s*(中文版|中文正文|中文|Chinese Version)\s*$/im, "");
+    } else {
+      zhBody = content.slice(0, enIndex);
+    }
+  } else if (zhIndex >= 0) {
+    zhBody = content.slice(zhIndex).replace(/^##\s*(中文版|中文正文|中文|Chinese Version)\s*$/im, "");
+    enBody = zhBody;
   }
 
-  const englishIndex = content.search(/(^|\n)##\s*English|(^|\n)#\s*English|(^|\n)##\s*英文/i);
-  if (englishIndex >= 0) {
-    const zhPart = content.slice(0, englishIndex).trim();
-    const enPart = content.slice(englishIndex).replace(/^#+\s*(English|英文).*$/im, "").trim();
-    return {
-      title: lang === "zh" ? firstHeading(zhPart) : firstHeading(enPart) || firstHeading(content),
-      body: lang === "zh" ? stripMainHeadings(zhPart) : stripMainHeadings(enPart),
-    };
-  }
+  const zhTitle = data.title || headings[0] || firstHeading(zhBody) || fallback;
+  const enTitle = data.english_title || data.en_title || headings[1] || firstHeading(enBody) || zhTitle;
 
   return {
-    title: firstHeading(content),
-    body: stripMainHeadings(content),
+    title: lang === "zh" ? zhTitle : enTitle,
+    body: stripHeadingsAndMarkers(lang === "zh" ? zhBody : enBody),
   };
+}
+
+export function slugFromFilename(filename: string) {
+  return filename.replace(/\.md$/, "");
+}
+
+function readDirectory(dirName: string, lang: Lang): ContentItem[] {
+  const dir = path.join(contentRoot, dirName);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter(isMarkdown)
+    .sort((a, b) => a.localeCompare(b, "en", { numeric: true }))
+    .map((filename) => {
+      const fullPath = path.join(dir, filename);
+      const raw = fs.readFileSync(fullPath, "utf8");
+      const slug = slugFromFilename(filename);
+      const number = filename.match(/^(\d{3}[a-z]?)/)?.[1];
+      const split = splitBilingual(raw, lang, slug);
+      return { slug, filename, title: split.title, number, body: split.body };
+    });
+}
+
+export function getVolumeItems(lang: Lang) {
+  return readDirectory("volume-01-relationships", lang).filter((item) => /^\d{3}[a-z]?/.test(item.filename));
+}
+
+export function getVolumeItem(slug: string, lang: Lang) {
+  return getVolumeItems(lang).find((item) => item.slug === slug) ?? null;
+}
+
+export function getDictionaryItems(lang: Lang) {
+  return readDirectory("dictionary", lang).filter((item) => /^\d{3}/.test(item.filename));
+}
+
+export function getDictionaryItem(slug: string, lang: Lang) {
+  return getDictionaryItems(lang).find((item) => item.slug === slug) ?? null;
+}
+
+export function getSpecialMarkdown(filename: string, lang: Lang) {
+  const fullPath = path.join(contentRoot, "volume-01-relationships", filename);
+  if (!fs.existsSync(fullPath)) return null;
+  const raw = fs.readFileSync(fullPath, "utf8");
+  const split = splitBilingual(raw, lang, filename);
+  return { filename, slug: filename.replace(/\.md$/, ""), title: split.title, body: split.body };
 }
 
 export async function markdownToHtml(markdown: string) {
   const processed = await remark().use(html).process(markdown);
   return processed.toString();
-}
-
-export async function getVolumeChapters(lang: Lang) {
-  const files = getVolumeFiles();
-  return Promise.all(
-    files.map(async (file) => {
-      const raw = fs.readFileSync(file, "utf8");
-      const split = splitBilingual(raw, lang);
-      return {
-        slug: slugFromFilename(path.basename(file)),
-        filename: path.basename(file),
-        title: split.title || slugFromFilename(path.basename(file)),
-      };
-    })
-  );
-}
-
-export async function getVolumeChapter(slug: string, lang: Lang) {
-  const file = getVolumeFiles().find((f) => slugFromFilename(path.basename(f)) === slug);
-  if (!file) return null;
-  const raw = fs.readFileSync(file, "utf8");
-  const split = splitBilingual(raw, lang);
-  return {
-    slug,
-    title: split.title || slug,
-    html: await markdownToHtml(split.body),
-  };
-}
-
-export function getDictionaryFiles() {
-  const dir = firstExistingDir(possibleDictionaryDirs);
-  if (!dir) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((name) => /^\d{3}-.+\.mdx?$/.test(name))
-    .sort()
-    .map((name) => path.join(dir, name));
-}
-
-export async function getDictionaryEntries(lang: Lang) {
-  const files = getDictionaryFiles();
-  return Promise.all(
-    files.map(async (file) => {
-      const raw = fs.readFileSync(file, "utf8");
-      const split = splitBilingual(raw, lang);
-      return {
-        slug: slugFromFilename(path.basename(file)),
-        filename: path.basename(file),
-        title: split.title || firstHeading(raw) || slugFromFilename(path.basename(file)),
-      };
-    })
-  );
 }

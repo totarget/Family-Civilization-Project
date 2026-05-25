@@ -6,15 +6,8 @@ export function generateStaticParams() {
   return [{ lang: "zh" }, { lang: "en" }];
 }
 
-export default function LangLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { lang: string };
-}) {
+export default function LangLayout({ children, params }: { children: React.ReactNode; params: { lang: string } }) {
   const { lang } = params;
   if (!isLang(lang)) notFound();
-
   return <SiteLayout lang={lang}>{children}</SiteLayout>;
 }
