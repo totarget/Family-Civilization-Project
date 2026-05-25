@@ -53,3 +53,20 @@ This version uses a free/system font stack only. No font files are bundled:
 ```
 
 The visual style is lighter and closer to Apple-style typography: smaller navigation, smaller article body, softer cards, neutral background, refined spacing, and less oversized headings.
+
+
+## Dependency fix for Vercel
+
+This version fixes the latest Vercel error by adding missing dependencies used by `components/MarkdownView.tsx`:
+
+```json
+"react-markdown": "^9.0.1",
+"remark-gfm": "^4.0.0"
+```
+
+It also adds ESLint packages because Next.js 14 checks lint configuration during builds:
+
+```json
+"eslint": "^8.57.1",
+"eslint-config-next": "14.2.23"
+```
