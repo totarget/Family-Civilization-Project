@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第67节）
-# Family Civilization Project — Volume I: Relationships (Section 67)
+# 067. 会道歉的父母，给了孩子疗愈的权利
+# A Parent Who Can Apologize Gives the Child the Right to Heal
 
-
----
-
-## 67. 会道歉的父母，给了孩子疗愈的权利
-## 67. A Parent Who Can Apologize Gives the Child the Right to Heal
+## 中文正文
 
 很多父母一生都没有向孩子道过歉。
 
@@ -104,6 +100,8 @@
 
 ---
 
+## English Version
+
 Many parents never apologize to their children in their entire lives.
 
 They can be polite to outsiders.  
@@ -201,4 +199,3 @@ And gives the family the possibility of beginning again.
 
 Family civilization is not a family without harm.  
 It is a family where, after harm occurs, someone is willing to take responsibility, someone is willing to repair, and someone is willing to bring love back into the relationship.
-

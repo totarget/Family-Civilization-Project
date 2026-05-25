@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第59节）
-# Family Civilization Project — Volume I: Relationships (Section 59)
+# 059. 亲子关系的终点，不是孩子听话，而是孩子成为完整的人
+# The Goal of the Parent-Child Relationship Is Not Obedience, but Wholeness
 
-
----
-
-## 59. 亲子关系的终点，不是孩子听话，而是孩子成为完整的人
-## 59. The Goal of the Parent-Child Relationship Is Not Obedience, but Wholeness
+## 中文正文
 
 在传统家庭教育里，很多父母把“听话”当成最高目标。
 
@@ -109,6 +105,8 @@
 
 ---
 
+## English Version
+
 In traditional family education, many parents treat obedience as the highest goal.
 
 If the child obeys, he is a good child.  
@@ -208,4 +206,3 @@ to “My child comes into the world through me, but will ultimately belong to hi
 
 When parents can accept this,  
 the parent-child relationship truly begins to move from control toward civilization.
-

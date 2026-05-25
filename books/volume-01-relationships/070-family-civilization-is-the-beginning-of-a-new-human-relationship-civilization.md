@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第70节）
-# Family Civilization Project — Volume I: Relationships (Section 70)
+# 070. 家庭文明，是新的人类关系文明的起点
+# Family Civilization Is the Beginning of a New Human Relationship Civilization
 
-
----
-
-## 70. 家庭文明，是新的人类关系文明的起点
-## 70. Family Civilization Is the Beginning of a New Human Relationship Civilization
+## 中文正文
 
 家庭文明工程并不只是关于家庭。
 
@@ -115,6 +111,8 @@
 
 ---
 
+## English Version
+
 The Family Civilization Project is not only about the family.
 
 It begins with the family,  
@@ -223,4 +221,3 @@ but it will not end with one family.
 Ultimately, it seeks a world where those who love one another no longer hurt one another,  
 where every person can truly live as a person,  
 and where every person has the possibility of happiness.
-

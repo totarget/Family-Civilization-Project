@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第078节）
-# Family Civilization Project — Volume I: Relationships (Section 078)
+# 078. 从一个家庭到更多家庭：文明传播的道路
+# From One Family to Many Families: The Path of Civilization Spread
 
-
----
-
-## 078. 从一个家庭到更多家庭：文明传播的道路
-## 078. From One Family to Many Families: The Path of Civilization Spread
+## 中文正文
 
 家庭文明工程不能只停留在一个人的觉醒里。
 
@@ -115,6 +111,8 @@ AI负责日常支持和个性化协作。
 
 ---
 
+## English Version
+
 The Family Civilization Project cannot remain only in one person’s awakening.
 
 One person’s awakening matters.  
@@ -220,4 +218,3 @@ may give language and courage to many more relationships.
 Family civilization begins from one person’s pain,  
 passes through expression, understanding, practice, and communication,  
 and ultimately moves toward the possibility of happiness for more people.
-

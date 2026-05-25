@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第076节）
-# Family Civilization Project — Volume I: Relationships (Section 076)
+# 076. 家庭文明工程不制造完美家庭，而建设可修复家庭
+# The Family Civilization Project Does Not Create Perfect Families, but Repairable Families
 
-
----
-
-## 076. 家庭文明工程不制造完美家庭，而建设可修复家庭
-## 076. The Family Civilization Project Does Not Create Perfect Families, but Repairable Families
+## 中文正文
 
 很多人一谈到好的家庭，就会想象一个完美家庭。
 
@@ -103,6 +99,8 @@
 
 ---
 
+## English Version
+
 When people speak of a good family, they often imagine a perfect family.
 
 Parents are always gentle.  
@@ -196,4 +194,3 @@ it is already walking on the path of civilization.
 
 Because a true home is not a place that never breaks.  
 A true home is a place where, after breaking, someone is still willing to repair.
-

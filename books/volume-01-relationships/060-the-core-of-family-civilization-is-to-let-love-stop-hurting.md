@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第60节）
-# Family Civilization Project — Volume I: Relationships (Section 60)
+# 060. 家庭文明的核心，是让爱停止伤害
+# The Core of Family Civilization Is to Let Love Stop Hurting
 
-
----
-
-## 60. 家庭文明的核心，是让爱停止伤害
-## 60. The Core of Family Civilization Is to Let Love Stop Hurting
+## 中文正文
 
 这个世界上最令人痛苦的事情之一，  
 不是被陌生人伤害，  
@@ -110,6 +106,8 @@
 
 ---
 
+## English Version
+
 One of the most painful things in the world  
 is not being hurt by strangers,  
 but being hurt by those we love most.
@@ -209,4 +207,3 @@ but it is already walking on the path of civilization.
 Because the beginning of family civilization  
 is not a family without conflict,  
 but a family willing to stop harming, willing to learn love, and willing to repair relationships.
-

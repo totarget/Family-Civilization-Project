@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第56节）
-# Family Civilization Project — Volume I: Relationships (Section 56)
+# 056. 真正的父母之爱，不是占有，而是成全
+# True Parental Love Is Not Possession, but Fulfillment
 
-
----
-
-## 56. 真正的父母之爱，不是占有，而是成全
-## 56. True Parental Love Is Not Possession, but Fulfillment
+## 中文正文
 
 很多父母以为，孩子是自己生的，所以孩子就属于自己。
 
@@ -92,6 +88,8 @@
 
 ---
 
+## English Version
+
 Many parents believe that because they gave birth to a child, the child belongs to them.
 
 As a result, the child’s body, time, choices, emotions, dreams, and even life direction are naturally treated as extensions of the parents themselves.
@@ -172,4 +170,3 @@ but that even far away, he can live well with the sense of safety, dignity, and 
 When a child can finally become himself freely,  
 this is not the failure of the parents.  
 It is the completion of parental love.
-

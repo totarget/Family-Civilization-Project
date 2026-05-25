@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第64节）
-# Family Civilization Project — Volume I: Relationships (Section 64)
+# 064. 家庭文明工程，是理论，也是方法，更是行动系统
+# The Family Civilization Project Is Theory, Method, and Action System
 
-
----
-
-## 64. 家庭文明工程，是理论，也是方法，更是行动系统
-## 64. The Family Civilization Project Is Theory, Method, and Action System
+## 中文正文
 
 很多人听到“家庭文明工程”，可能会以为这只是一个理念。
 
@@ -114,6 +110,8 @@
 
 ---
 
+## English Version
+
 When people hear the phrase “Family Civilization Project,” they may think it is merely an idea.
 
 A slogan.  
@@ -218,4 +216,3 @@ action gradually becomes habit,
 and habit gradually becomes a new family culture.
 
 This is how family civilization truly takes root.
-

@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第073节）
-# Family Civilization Project — Volume I: Relationships (Section 073)
+# 073. AI可以成为家庭关系的文明助手
+# AI Can Become a Civilization Assistant for Family Relationships
 
-
----
-
-## 073. AI可以成为家庭关系的文明助手
-## 073. AI Can Become a Civilization Assistant for Family Relationships
+## 中文正文
 
 在过去，人类解决家庭问题，主要依靠经验、长辈、书本、心理咨询和个人反思。
 
@@ -97,6 +93,8 @@ AI不能替代家庭。
 
 ---
 
+## English Version
+
 In the past, human beings solved family problems mainly through experience, elders, books, counseling, and personal reflection.
 
 All of these have value,  
@@ -184,4 +182,3 @@ AI cannot replace the family.
 But AI can help the family become a family in a more civilized way.
 
 This is the new possibility of family civilization in the AI era.
-

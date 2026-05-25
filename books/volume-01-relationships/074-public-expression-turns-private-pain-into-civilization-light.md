@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第074节）
-# Family Civilization Project — Volume I: Relationships (Section 074)
+# 074. 公共表达，让私人痛苦成为文明之光
+# Public Expression Turns Private Pain into Civilization Light
 
-
----
-
-## 074. 公共表达，让私人痛苦成为文明之光
-## 074. Public Expression Turns Private Pain into Civilization Light
+## 中文正文
 
 很多家庭痛苦，长期被关在家门里面。
 
@@ -103,6 +99,8 @@
 
 ---
 
+## English Version
+
 Much family suffering has long been locked behind closed doors.
 
 A child’s fear cannot be spoken.  
@@ -197,4 +195,3 @@ can finally speak truth with dignity, reason, and compassion.
 
 At that moment, private pain is no longer only pain.  
 It becomes light that illuminates others.
-

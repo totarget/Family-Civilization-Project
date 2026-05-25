@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第072节）
-# Family Civilization Project — Volume I: Relationships (Section 072)
+# 072. 家庭会议，是家庭文明的日常制度
+# The Family Meeting Is the Daily Institution of Family Civilization
 
-
----
-
-## 072. 家庭会议，是家庭文明的日常制度
-## 072. The Family Meeting Is the Daily Institution of Family Civilization
+## 中文正文
 
 一个家庭要真正变得文明，不能只靠情绪好的时候彼此温柔。
 
@@ -107,6 +103,8 @@
 
 ---
 
+## English Version
+
 For a family to truly become civilized, it cannot rely only on tenderness when everyone is in a good mood.
 
 True civilization requires institutions.
@@ -205,4 +203,3 @@ Family civilization is not an abstract idea.
 It must enter daily institutions.
 
 And the family meeting is the first cornerstone that brings civilization into family life.
-

@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第61节）
-# Family Civilization Project — Volume I: Relationships (Section 61)
+# 061. 做父母，也需要学习
+# Parenthood Also Requires Learning
 
-
----
-
-## 61. 做父母，也需要学习
-## 61. Parenthood Also Requires Learning
+## 中文正文
 
 很多父母听到“学习做父母”这句话，本能地会感到不舒服。
 
@@ -91,6 +87,8 @@
 
 ---
 
+## English Version
+
 Many parents feel uncomfortable when they hear the phrase “learning how to be a parent.”
 
 They may say:
@@ -175,4 +173,3 @@ But being willing to help the child become a whole person.
 When a parent is willing to learn, the family gains an entrance to change.  
 When a parent is willing to reflect, the child gains a chance not to repeat trauma.  
 When a parent is willing to enter the practice of family civilization, love can finally move from instinct toward civilization.
-

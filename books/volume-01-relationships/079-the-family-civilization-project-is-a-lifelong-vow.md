@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第079节）
-# Family Civilization Project — Volume I: Relationships (Section 079)
+# 079. 家庭文明工程，是一场终身的愿
+# The Family Civilization Project Is a Lifelong Vow
 
-
----
-
-## 079. 家庭文明工程，是一场终身的愿
-## 079. The Family Civilization Project Is a Lifelong Vow
+## 中文正文
 
 有些事业，是为了赚钱。  
 有些事业，是为了成名。  
@@ -119,6 +115,8 @@
 
 ---
 
+## English Version
+
 Some undertakings are for money.  
 Some are for fame.  
 Some are to prove oneself.
@@ -228,4 +226,3 @@ The Family Civilization Project is such a vow.
 May those who love one another no longer hurt one another.  
 May every person truly live as a person.  
 May every person have the possibility of happiness.
-

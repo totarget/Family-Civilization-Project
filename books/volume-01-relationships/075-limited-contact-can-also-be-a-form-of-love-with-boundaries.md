@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第075节）
-# Family Civilization Project — Volume I: Relationships (Section 075)
+# 075. 有限联系，也可以是有边界的爱
+# Limited Contact Can Also Be a Form of Love with Boundaries
 
-
----
-
-## 075. 有限联系，也可以是有边界的爱
-## 075. Limited Contact Can Also Be a Form of Love with Boundaries
+## 中文正文
 
 在很多传统观念里，亲子关系只有一种正确形态：  
 亲密、顺从、经常联系、随叫随到。
@@ -105,6 +101,8 @@
 
 ---
 
+## English Version
+
 In many traditional views, there is only one correct form of parent-child relationship:  
 closeness, obedience, frequent contact, and immediate availability.
 
@@ -201,4 +199,3 @@ but also respects a person’s right to protect himself within love.
 
 Limited contact is not necessarily the failure of parent-child relationship.  
 In some cases, it is precisely the beginning of civilized self-protection and the beginning of stopping further harm.
-

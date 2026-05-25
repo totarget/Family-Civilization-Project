@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第63节）
-# Family Civilization Project — Volume I: Relationships (Section 63)
+# 063. 家庭教育不是复制原生家庭，而是终止创伤传递
+# Family Education Is Not Repeating the Family of Origin, but Ending the Transmission of Trauma
 
-
----
-
-## 63. 家庭教育不是复制原生家庭，而是终止创伤传递
-## 63. Family Education Is Not Repeating the Family of Origin, but Ending the Transmission of Trauma
+## 中文正文
 
 很多父母教育孩子的方式，  
 其实不是自己真正选择的，  
@@ -99,6 +95,8 @@
 
 ---
 
+## English Version
+
 Many parents’ ways of educating children  
 are not truly chosen by themselves,  
 but inherited from their families of origin.
@@ -191,4 +189,3 @@ It asks us to transform pain into awakening, awakening into responsibility, and 
 
 If a wounded person can stop passing pain to his child,  
 he is already creating civilization.
-

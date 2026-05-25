@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第57节）
-# Family Civilization Project — Volume I: Relationships (Section 57)
+# 057. 孩子不是父母情绪的容器
+# A Child Is Not a Container for the Parents’ Emotions
 
-
----
-
-## 57. 孩子不是父母情绪的容器
-## 57. A Child Is Not a Container for the Parents’ Emotions
+## 中文正文
 
 在很多家庭里，孩子并不是以“人”的身份被对待，  
 而是以“情绪容器”的身份存在。
@@ -103,6 +99,8 @@
 
 ---
 
+## English Version
+
 In many families, a child is not treated as a person.  
 The child exists as an emotional container.
 
@@ -194,4 +192,3 @@ A child is a human being who is growing.
 
 Only when parents take their emotions back from the child  
 can the parent-child relationship truly begin to become civilized.
-

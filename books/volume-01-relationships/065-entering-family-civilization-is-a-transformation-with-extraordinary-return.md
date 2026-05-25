@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第65节）
-# Family Civilization Project — Volume I: Relationships (Section 65)
+# 065. 进入家庭文明，是一场无本万利的改变
+# Entering Family Civilization Is a Transformation with Extraordinary Return
 
-
----
-
-## 65. 进入家庭文明，是一场无本万利的改变
-## 65. Entering Family Civilization Is a Transformation with Extraordinary Return
+## 中文正文
 
 有些父母会觉得，学习家庭文明很麻烦。
 
@@ -115,6 +111,8 @@
 
 ---
 
+## English Version
+
 Some parents may feel that learning family civilization is troublesome.
 
 They may say:
@@ -221,4 +219,3 @@ This is why we must practice the Family Civilization Project.
 
 Because the civilization of a family  
 may be the beginning of a person’s lifelong happiness.
-

@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第69节）
-# Family Civilization Project — Volume I: Relationships (Section 69)
+# 069. 亲子关系要从控制走向共创
+# The Parent-Child Relationship Must Move from Control to Co-Creation
 
-
----
-
-## 69. 亲子关系要从控制走向共创
-## 69. The Parent-Child Relationship Must Move from Control to Co-Creation
+## 中文正文
 
 传统亲子关系里，父母常常把自己放在命令者的位置。
 
@@ -107,6 +103,8 @@
 家庭才会从权力结构变成成长共同体。
 
 ---
+
+## English Version
 
 In traditional parent-child relationships, parents often place themselves in the position of commanders.
 
@@ -211,4 +209,3 @@ A truly strong parent has the capacity to lead the child in building a better fa
 
 When the parent-child relationship moves from control to co-creation,  
 the family can transform from a power structure into a community of growth.
-

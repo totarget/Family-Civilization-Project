@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第077节）
-# Family Civilization Project — Volume I: Relationships (Section 077)
+# 077. 《关系篇》是一张从伤害走向修复的地图
+# The Volume on Relationships Is a Map from Harm to Repair
 
-
----
-
-## 077. 《关系篇》是一张从伤害走向修复的地图
-## 077. The Volume on Relationships Is a Map from Harm to Repair
+## 中文正文
 
 《家庭文明工程》第一卷选择从“关系”开始，  
 不是偶然。
@@ -115,6 +111,8 @@
 
 ---
 
+## English Version
+
 It is not accidental that the first volume of the Family Civilization Project begins with “Relationships.”
 
 Much human suffering does not come from poverty itself,  
@@ -220,4 +218,3 @@ To bring family harm out of darkness.
 To rescue love from control.  
 To rebuild relationships out of power.  
 To return the human being to himself.
-

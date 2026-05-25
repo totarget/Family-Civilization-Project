@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第62节）
-# Family Civilization Project — Volume I: Relationships (Section 62)
+# 062. “我是为你好”，不能成为伤害的通行证
+# “I Am Doing This for Your Own Good” Must Not Become a License to Harm
 
-
----
-
-## 62. “我是为你好”，不能成为伤害的通行证
-## 62. “I Am Doing This for Your Own Good” Must Not Become a License to Harm
+## 中文正文
 
 在很多家庭里，“我是为你好”是一句最常见的话。
 
@@ -98,6 +94,8 @@
 
 ---
 
+## English Version
+
 In many families, “I am doing this for your own good” is one of the most common sentences.
 
 Parents control the child and call it being for the child’s good.  
@@ -187,4 +185,3 @@ then you cannot simply say, “I was doing it for your own good.”
 The beginning of family civilization  
 is the movement from “I am doing this for your good”  
 to “I am willing to learn what is truly good for you.”
-

@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第071节）
-# Family Civilization Project — Volume I: Relationships (Section 071)
+# 071. 疗愈，从不再把痛苦传给所爱的人开始
+# Healing Begins When We Stop Passing Pain to Those We Love
 
-
----
-
-## 071. 疗愈，从不再把痛苦传给所爱的人开始
-## 071. Healing Begins When We Stop Passing Pain to Those We Love
+## 中文正文
 
 很多人一生都在痛苦里长大。
 
@@ -93,6 +89,8 @@
 
 ---
 
+## English Version
+
 Many people grow up inside pain.
 
 As children, they were not loved well.  
@@ -177,4 +175,3 @@ Healing is also for those we love.
 
 Only when we stop passing pain to them  
 does love truly have the chance to become love.
-

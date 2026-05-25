@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第68节）
-# Family Civilization Project — Volume I: Relationships (Section 68)
+# 068. 孩子的沉默，往往是绝望的最后形态
+# The Child’s Silence Is Often the Final Form of Despair
 
-
----
-
-## 68. 孩子的沉默，往往是绝望的最后形态
-## 68. The Child’s Silence Is Often the Final Form of Despair
+## 中文正文
 
 很多父母以为，孩子不说话，就是没事了。
 
@@ -108,6 +104,8 @@
 
 ---
 
+## English Version
+
 Many parents think that if a child stops speaking, everything is fine.
 
 When the child stops arguing, parents think he has become sensible.  
@@ -207,4 +205,3 @@ It may be the sound of a soul slowly closing inside the family.
 
 Family civilization means helping parents learn to hear  
 before the child closes completely.
-

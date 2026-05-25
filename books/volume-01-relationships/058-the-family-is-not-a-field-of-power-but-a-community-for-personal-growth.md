@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第58节）
-# Family Civilization Project — Volume I: Relationships (Section 58)
+# 058. 家庭不是权力场，而应是人格成长的共同体
+# The Family Is Not a Field of Power, but a Community for Personal Growth
 
-
----
-
-## 58. 家庭不是权力场，而应是人格成长的共同体
-## 58. The Family Is Not a Field of Power, but a Community for Personal Growth
+## 中文正文
 
 很多家庭表面上是家，  
 本质上却是一个小型权力场。
@@ -93,6 +89,8 @@
 
 ---
 
+## English Version
+
 Many families look like homes on the surface,  
 but in essence they are small fields of power.
 
@@ -177,4 +175,3 @@ children no longer need rebellion to prove themselves,
 and spouses no longer need cold wars to protect dignity.
 
 Only then does home truly begin to become home.
-

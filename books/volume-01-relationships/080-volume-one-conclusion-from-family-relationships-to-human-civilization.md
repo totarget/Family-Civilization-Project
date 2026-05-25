@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第080节）
-# Family Civilization Project — Volume I: Relationships (Section 080)
+# 080. 第一卷结语：从家庭关系走向人类文明
+# Volume One Conclusion: From Family Relationships to Human Civilization
 
-
----
-
-## 080. 第一卷结语：从家庭关系走向人类文明
-## 080. Volume One Conclusion: From Family Relationships to Human Civilization
+## 中文正文
 
 写到这里，《家庭文明工程》第一卷《关系篇》完成了。
 
@@ -132,6 +128,8 @@
 
 ---
 
+## English Version
+
 At this point, Volume One of the Family Civilization Project, *Relationships*, is complete.
 
 But this is not an ending.
@@ -254,4 +252,3 @@ And he must also regain love, dignity, and vitality in relationships.
 
 Volume One ends here.  
 But the road of family civilization has only just begun.
-

@@ -1,11 +1,7 @@
-# 《家庭文明工程》第一卷：关系篇（第66节）
-# Family Civilization Project — Volume I: Relationships (Section 66)
+# 066. 家庭文明，从父母停止自我辩护开始
+# Family Civilization Begins When Parents Stop Defending Themselves
 
-
----
-
-## 66. 家庭文明，从父母停止自我辩护开始
-## 66. Family Civilization Begins When Parents Stop Defending Themselves
+## 中文正文
 
 很多亲子关系之所以无法修复，不是因为伤害太深，  
 而是因为父母永远在自我辩护。
@@ -101,6 +97,8 @@
 
 ---
 
+## English Version
+
 Many parent-child relationships remain unrepaired not because the wounds are too deep,  
 but because parents are always defending themselves.
 
@@ -192,4 +190,3 @@ It begins with parents being willing to face their own imperfection.
 The most important civilized moment in a family  
 is often not when parents explain more principles,  
 but when they finally put down their defense and truly hear the child’s pain.
-
