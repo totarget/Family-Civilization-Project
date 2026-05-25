@@ -2,8 +2,8 @@ import { getDictionaryEntries } from "@/lib/content";
 import { isLang } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-export default async function DictionaryPage({ params }: { params: Promise<{ lang: string }> }) {
-  const { lang } = await params;
+export default async function DictionaryPage({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   if (!isLang(lang)) notFound();
 
   const entries = await getDictionaryEntries(lang);

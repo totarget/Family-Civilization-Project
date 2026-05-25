@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { dict, isLang } from "@/lib/i18n";
+import { isLang } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
-  const { lang } = await params;
+export default function Home({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   if (!isLang(lang)) notFound();
-  const t = dict[lang];
 
   if (lang === "zh") {
     return (

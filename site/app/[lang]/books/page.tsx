@@ -2,8 +2,8 @@ import Link from "next/link";
 import { isLang } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-export default async function BooksPage({ params }: { params: Promise<{ lang: string }> }) {
-  const { lang } = await params;
+export default function BooksPage({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   if (!isLang(lang)) notFound();
 
   const zh = lang === "zh";

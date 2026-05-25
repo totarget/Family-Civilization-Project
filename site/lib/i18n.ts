@@ -6,7 +6,6 @@ export function isLang(value: string): value is Lang {
 
 export const dict = {
   zh: {
-    htmlLang: "zh-CN",
     switchTo: "English",
     home: "首页",
     manifesto: "宣言",
@@ -20,12 +19,8 @@ export const dict = {
     humans: "HUMANS ARE ENDS",
     brand: "家庭文明工程 Family Civilization Project",
     footer: "家庭文明工程 — 让相爱的人不再相互伤害。",
-    readVolume: "阅读第一卷",
-    readManifesto: "阅读宣言",
-    startButton: "从这里开始",
   },
   en: {
-    htmlLang: "en",
     switchTo: "中文",
     home: "Home",
     manifesto: "Manifesto",
@@ -39,9 +34,6 @@ export const dict = {
     humans: "HUMANS ARE ENDS",
     brand: "Family Civilization Project",
     footer: "Family Civilization Project — Let those who love one another stop hurting one another.",
-    readVolume: "Read Volume I",
-    readManifesto: "Read Manifesto",
-    startButton: "Start Here",
   },
 } as const;
 

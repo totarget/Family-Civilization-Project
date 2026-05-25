@@ -1,8 +1,8 @@
 import { isLang } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
-  const { lang } = await params;
+export default function Page({ params }: { params: { lang: string } }) {
+  const { lang } = params;
   if (!isLang(lang)) notFound();
 
   const isZh = lang === "zh";

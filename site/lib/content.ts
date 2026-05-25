@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import type { Lang } from "./i18n";
+import type { Lang } from "@/lib/i18n";
 
 const root = process.cwd();
 
@@ -15,8 +15,8 @@ const possibleVolumeDirs = [
 ];
 
 const possibleDictionaryDirs = [
-  path.join(root, "..", "dictionary"),
   path.join(root, "..", "dictionary", "entries"),
+  path.join(root, "..", "dictionary"),
   path.join(root, "content", "dictionary"),
 ];
 
@@ -61,10 +61,7 @@ export function splitBilingual(raw: string, lang: Lang) {
   const zhMarker = /##\s*中文正文\s*/i;
   const enMarker = /##\s*English Version\s*/i;
 
-  const hasZh = zhMarker.test(content);
-  const hasEn = enMarker.test(content);
-
-  if (hasZh && hasEn) {
+  if (zhMarker.test(content) && enMarker.test(content)) {
     const beforeZh = content.split(zhMarker)[0];
     const afterZh = content.split(zhMarker)[1];
     const zhPart = afterZh.split(enMarker)[0].trim();
@@ -82,8 +79,6 @@ export function splitBilingual(raw: string, lang: Lang) {
     };
   }
 
-  // Older files may be bilingual but not use the new markers.
-  // The fallback keeps Chinese on zh pages and full content on en pages unless a clear English section exists.
   const englishIndex = content.search(/(^|\n)##\s*English|(^|\n)#\s*English|(^|\n)##\s*英文/i);
   if (englishIndex >= 0) {
     const zhPart = content.slice(0, englishIndex).trim();

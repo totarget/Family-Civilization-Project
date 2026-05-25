@@ -15,9 +15,9 @@ export async function generateStaticParams() {
 export default async function ChapterPage({
   params,
 }: {
-  params: Promise<{ lang: string; slug: string }>;
+  params: { lang: string; slug: string };
 }) {
-  const { lang, slug } = await params;
+  const { lang, slug } = params;
   if (!isLang(lang)) notFound();
 
   const chapter = await getVolumeChapter(slug, lang);
