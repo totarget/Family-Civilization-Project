@@ -1,78 +1,37 @@
-# 090. 从自我修复到家庭文明：让伤口不再传给下一代
-# From Self-Repair to Family Civilization: Let the Wound Stop Here
+# 090. 从自我修复到家庭文明：让伤口到我为止
 
-## 中文正文
+    # From Self-Repair to Family Civilization: Let the Wound Stop with Me
 
-一个人修复自己，不只是为了自己少痛一点。更深的意义在于：让痛苦不再继续向下一代传递。
+    ## 中文正文
 
-许多家庭悲剧并不是某一个人天生邪恶造成的，而是伤口在代际之间不断复制。一个没有被温柔对待过的人，长大后不知道如何温柔地对待孩子；一个从小被控制的人，长大后可能用控制获得安全感；一个从小被羞辱的人，长大后可能用羞辱教育孩子；一个从小没有被看见的人，长大后可能一生都在要求别人看见自己；一个从小没有被爱满足的人，长大后可能把爱的缺口投射到伴侣和孩子身上。
+    自我修复的终点，不是永远停留在自我之中，而是重新进入关系、责任和文明建设。阿德勒的共同体感觉，为家庭文明工程提供了这一转向。一个健康的人，并不只是摆脱痛苦、建立自尊、保护边界、成为自己；更重要的是，他重新具备与他人合作、关心他人、承担责任、建设共同生活的能力。
 
-伤口如果没有被觉察，就会成为新的伤害。痛苦如果没有被转化，就会寻找新的承受者。缺爱如果没有被修复，就可能以爱的名义继续索取。恐惧如果没有被安抚，就可能以控制的方式传给下一代。
+让伤口到我为止，是自我关系部分的伦理结论。它不是要求受伤者替伤害者承担责任，也不是要求受伤者立刻原谅所有人，更不是让受伤者继续忍耐。它的意思是：伤害曾经发生在我身上，但我不再让它通过我继续发生在伴侣、孩子和下一代身上。
 
-因此，自我修复不是私人化的小事，而是家庭文明建设的第一道工程。
+这需要极大的清醒。一个从暴力家庭长大的人，必须承认自己身体里可能带着暴力反应。一个从羞辱家庭长大的人，必须承认自己可能会在压力下羞辱别人。一个从控制家庭长大的人，必须承认自己可能会把控制误认为爱。一个从缺爱家庭长大的人，必须承认自己可能会向伴侣和孩子索取过度补偿。
 
-相关概念可参见《家庭文明词典》中的“代际创伤”“自我修复”“家庭文明工程”等词条。
+弗洛伊德帮助人看见，压抑的创伤会回返；荣格帮助人看见，阴影如果不被整合，就会替人行动；阿德勒帮助人看见，自卑如果不被转化，就会通过补偿、控制和优越感进入共同体。家庭文明工程把三者整合成一句话：没有被看见的伤口，终将进入关系；被看见、被安抚、被整合的伤口，才有可能停止传递。
 
-每一个受伤的人，都有权问：“为什么是我？”为什么我出生在这样的家庭？为什么我没有得到应有的爱？为什么别人可以拥有温柔父母，而我必须在恐惧中长大？为什么我直到成年以后，还要为童年的伤口付出代价？
+从自我修复走向家庭文明，至少包括五个转化：从“我为什么这么痛”转向“我如何不再把痛转给别人”；从“谁欠我爱”转向“我如何重新具备爱的能力”；从“我怎样保护自己”转向“我如何在保护自己的同时尊重别人”；从“我如何成为自己”转向“我如何带着真实自我进入共同生活”；从“我如何疗愈过去”转向“我如何建设未来”。
 
-这些问题真实、沉重，也值得被认真听见。但如果一个人只停留在“为什么是我”，生命就会被困在命运的不公里。家庭文明工程所要推动的更深转化，是让人慢慢走向另一句话：
+家庭文明不是抽象口号，而是在具体瞬间中的选择。当孩子犯错时，不再使用父母当年羞辱自己的语言；当伴侣冷淡时，不立刻把童年被抛弃感投射到对方身上；当自己焦虑时，不把焦虑砸向孩子的成绩和人生；当自己想控制别人时，停下来问：“我是在爱，还是在用控制寻找安全？”
 
-到我为止。
+一个人可以从受害者出发，但不能永远停留在受害者身份中。最终，他要成为见证者、修复者、建设者。让伤口到我为止，不只是个人誓言，也是家庭文明的开始。
 
-暴力到我为止。羞辱到我为止。控制到我为止。冷漠到我为止。情感勒索到我为止。爱的缺口投射到我为止。把孩子当工具、当寄托、当情绪容器的关系模式，到我为止。
+    ---
 
-“为什么是我”是伤口的呐喊。“到我为止”是文明的誓言。
+    ## English Version
 
-这不是要求受伤的人立刻伟大，也不是要求他替所有人承担责任。而是当一个人终于看见代际伤害机制之后，他开始拥有一个选择：不再把自己曾经承受的痛苦，原样交给下一代。
+    The endpoint of self-repair is not remaining forever inside the self. It is re-entering relationship, responsibility, and civilizational construction. Adler’s social interest gives the Family Civilization Project this turn. A healthy person does not only escape pain, build self-esteem, protect boundaries, and become oneself; more importantly, such a person regains the ability to cooperate, care, take responsibility, and build shared life.
 
-自我修复会转化为家庭修复。
+Let the wound stop with me is the ethical conclusion of the relationship with oneself. It does not require the wounded person to take responsibility for the one who harmed, to forgive immediately, or to continue enduring. It means: harm once happened to me, but I will not let it continue through me into my partner, children, and the next generation.
 
-修复自我父母，才能不让孩子养父母。一个成年人如果没有自我父母，就容易让孩子承担父母角色：安慰自己、陪伴自己、理解自己、完成自己、证明自己。当成年人建立自我父母之后，他就能把这些任务逐渐收回，让孩子重新成为孩子。
+This requires clarity. A person raised in violence must acknowledge that violent reactions may live in the body. A person raised in humiliation must acknowledge the possibility of humiliating others under pressure. A person raised in control must acknowledge the tendency to mistake control for love. A person raised without love must acknowledge the tendency to demand compensation from partners and children.
 
-修复自我价值，才能不把孩子当证明。许多父母把孩子的成绩、成功、婚姻、孝顺当成自己价值的证明。孩子优秀，父母就觉得自己有面子；孩子失败，父母就觉得自己失败。当一个人建立更稳定的自我价值，他就不需要孩子替自己证明什么。
+Freud helps us see that repressed trauma returns. Jung helps us see that unintegrated shadow acts through us. Adler helps us see that untransformed inferiority enters community through compensation, control, and superiority. The Family Civilization Project integrates these into one sentence: wounds that are not seen will enter relationships; wounds that are seen, soothed, and integrated may stop being transmitted.
 
-修复自我边界，才能尊重孩子边界。一个没有边界的人，很难尊重别人的边界。当父母开始建立自己的边界，他也更容易理解：边界不是不爱，而是人格的基本结构。
+Moving from self-repair to family civilization includes five transformations: from “Why am I in pain?” to “How do I stop transferring pain?”; from “Who owes me love?” to “How do I regain the capacity to love?”; from “How do I protect myself?” to “How do I protect myself while respecting others?”; from “How do I become myself?” to “How do I enter shared life with my authentic self?”; from “How do I heal the past?” to “How do I build the future?”
 
-修复自我安抚，才能不把情绪转嫁给家人。一个不能安抚自己的人，最容易伤害最亲近的人。当父母能够先稳定自己，他就不会轻易用吼叫、羞辱、冷暴力、威胁、哭诉和道德绑架处理关系。
+Family civilization is not an abstract slogan. It is a choice in concrete moments: when a child makes a mistake, not using the humiliating language once used by parents; when a partner becomes cold, not immediately projecting childhood abandonment; when anxiety arises, not throwing it onto the child’s grades and life; when control arises, pausing to ask: “Am I loving, or using control to seek safety?”
 
-修复爱的缺口，才能让爱不再变成索取。爱的缺口如果没有被修复，父母就容易向孩子索取：你要陪我，你要听我的，你要孝顺我，你要让我晚年幸福，你要证明我这辈子没有白活。当一个人看见自己的爱的缺口，并开始用自我父母、自我爱、自我和解来修复它，他就不会再把孩子当成填补缺口的工具。
-
-自我修复的关键转折，是身份的转变。从被害者到见证者，从见证者到修复者，从修复者到建设者，从建设者到家庭文明的传递者。
-
-家庭文明工程不是让人否认受害，而是让人不止步于受害。它要帮助人从“我被怎样伤害”走向“我如何不再伤害自己和他人”，再走向“我如何建设一种新的家庭关系”。
-
-原谅父母与保持边界可以同时存在。可以理解父母的局限，同时不接受继续伤害；可以原谅过去的一部分，同时不取消现实边界；可以减少仇恨，同时保持有限联系；可以承认父母也曾受苦，同时不把自己的痛苦再次压回心里。
-
-让伤口停止传递，可以从七个家庭行动开始：停止使用伤害性语言；承认孩子的感受；父母先管理自己的情绪；不把婚姻问题倒给孩子；给孩子边界和选择；允许道歉和修复；建立家庭会议。
-
-家庭文明不是等待完美家庭才发生。它是在不完美的家庭中，通过一个又一个可执行的小行动，被慢慢建设出来。
-
-每一个受伤的人，都可以在某一天对自己说：我承认我受过伤。那不是我的错。但我也承认，我不能让那份伤口继续决定我的全部人生。我不再用父母伤害我的方式继续伤害自己。我不再用我承受过的痛苦去伤害孩子。我不再把爱的缺口转嫁给伴侣和家人。我愿意重新养育自己，慢慢与自己和解，学会爱自己，让这条痛苦的链条，到我这里为止。
-
-家庭文明工程不是从宏大的口号开始，而是从一个人终于决定：我不再把伤口传下去开始。
-
-## English Version
-
-A person repairs himself not only to suffer less. The deeper meaning is to stop suffering from being passed to the next generation.
-
-Many family tragedies are not caused by one person being born evil, but by wounds being repeated across generations. Unrecognized wounds become new harm. Untransformed pain searches for new carriers. Unrepaired deprivation may continue demanding in the name of love. Unsoothed fear may be passed to the next generation as control.
-
-Self-repair is therefore not a small private matter. It is the first engineering task of Family Civilization.
-
-Every wounded person has the right to ask: Why me? But Family Civilization calls for a deeper transformation: It stops with me.
-
-Violence stops with me. Humiliation stops with me. Control stops with me. Coldness stops with me. Emotional blackmail stops with me. Love-deficit projection stops with me.
-
-“Why me?” is the cry of the wound. “It stops with me” is the vow of civilization.
-
-Self-repair becomes family repair. Repairing inner parenting prevents children from having to parent the parent. Repairing self-worth prevents children from becoming proof of parental value. Repairing self-boundaries allows parents to respect children’s boundaries. Repairing self-soothing prevents emotional transfer to family members. Repairing love deficits prevents love from becoming demand.
-
-The key turning point is identity transformation: from victim to witness, from witness to repairer, from repairer to builder, and from builder to transmitter of family civilization.
-
-Forgiving parents and maintaining boundaries can coexist. Some relationships can be repaired. Some require limited contact. Some need distance. Some can only be released inwardly. These may all be civilized choices.
-
-Seven family actions can stop wounds from being passed on: stop harmful language, acknowledge children’s feelings, parents manage their own emotions first, do not pour marital problems into children, give children boundaries and choices, allow apology and repair, and establish family meetings.
-
-Family Civilization does not wait for perfect families. It is built through executable small actions inside imperfect families.
-
-Family Civilization begins when one person finally decides: I will not pass the wound on.
+A person may begin as a victim, but cannot remain only in victim identity forever. Eventually, one must become witness, repairer, and builder. Let the wound stop with me is not only a personal vow; it is the beginning of family civilization.
