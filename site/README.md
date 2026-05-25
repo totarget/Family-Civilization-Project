@@ -1,34 +1,62 @@
-# FamilyCiv.com Site
+# FamilyCiv.com Bilingual Site Package
 
-This is the website for the Family Civilization Project / 家庭文明工程.
+This package upgrades `familyciv.com` from mixed Chinese-English pages to separated Chinese and English versions.
 
-Deployment:
+## New URL Structure
 
-```txt
-GitHub → Vercel → familyciv.com
+```text
+/
+  Language landing page
+/zh
+  Chinese homepage
+/en
+  English homepage
+/zh/books/volume-01-relationships
+  Chinese Volume I
+/en/books/volume-01-relationships
+  English Volume I
+/zh/books/volume-01-relationships/[slug]
+  Chinese chapter page
+/en/books/volume-01-relationships/[slug]
+  English chapter page
 ```
 
-Vercel project settings:
+## Important Changes
 
-```txt
-Root Directory: site
-Framework Preset: Next.js
-Build Command: npm run build
-Install Command: npm install
-Output Directory: leave empty unless Vercel specifically requires otherwise
+- Brand top-left:
+  - Chinese: `家庭文明工程 Family Civilization Project`
+  - English: `Family Civilization Project`
+- The phrase `人是目的` is displayed as:
+  - `HUMANS ARE ENDS`
+- Bilingual Markdown is split automatically:
+  - Chinese pages show `## 中文正文`
+  - English pages show `## English Version`
+- Existing book files can stay in:
+
+```text
+books/volume-01-relationships/
 ```
 
-This package preserves the uploaded `next.config.mjs` file exactly as provided.
+or be copied to:
 
-## Main Structure
+```text
+site/content/volume-01-relationships/
+```
 
-- `/` — Home page with the original Humans Are Ends logo centered in the hero section.
-- `/humans-are-ends` — Core philosophy: 人是目的，不是手段 / Humans Are Ends, Not Means.
-- `/books` — Book system. Volume I is listed under Books.
-- `/books/volume-01-relationships` — Volume I: Relationships / 第一卷《关系篇》.
-- `/dictionary` — Human Civilization Dictionary.
-- `/manifesto` — Manifesto.
-- `/start-here` — Entry guide.
-- `/about` — About the project and author.
-- `/videos` — Video archive entry.
-- `/github` — GitHub archive entry.
+## Upload Instructions
+
+Replace your existing GitHub `site/` directory with this new `site/` directory, then push to GitHub. Vercel should rebuild automatically.
+
+## Local Development
+
+```bash
+cd site
+npm install
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```

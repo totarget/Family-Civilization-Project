@@ -1,68 +1,158 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { remark } from "remark";
+import html from "remark-html";
+import type { Lang } from "./i18n";
 
-export type ContentItem = {
-  slug: string;
-  filename: string;
-  title: string;
-  number?: string;
-  content: string;
-};
+const root = process.cwd();
 
-const contentRoot = path.join(process.cwd(), 'content');
+const possibleVolumeDirs = [
+  path.join(root, "content", "volume-01-relationships"),
+  path.join(root, "..", "books", "volume-01-relationships"),
+  path.join(root, "..", "content", "volume-01-relationships"),
+  path.join(root, "..", "volume-01-relationships"),
+];
 
-function isMarkdown(filename: string) {
-  return filename.endsWith('.md') && !filename.startsWith('.');
+const possibleDictionaryDirs = [
+  path.join(root, "..", "dictionary"),
+  path.join(root, "..", "dictionary", "entries"),
+  path.join(root, "content", "dictionary"),
+];
+
+function firstExistingDir(dirs: string[]) {
+  return dirs.find((dir) => fs.existsSync(dir) && fs.statSync(dir).isDirectory());
 }
 
-function readDirectory(dirName: string): ContentItem[] {
-  const dir = path.join(contentRoot, dirName);
-  if (!fs.existsSync(dir)) return [];
+function cleanTitle(line: string) {
+  return line.replace(/^#+\s*/, "").trim();
+}
 
+function firstHeading(text: string) {
+  const line = text.split(/\r?\n/).find((l) => /^#\s+/.test(l));
+  return line ? cleanTitle(line) : "";
+}
+
+function stripMainHeadings(text: string) {
+  return text
+    .replace(/^#\s+.*$/gm, "")
+    .replace(/^---\s*$/gm, "")
+    .trim();
+}
+
+export function slugFromFilename(filename: string) {
+  return filename.replace(/\.mdx?$/, "");
+}
+
+export function getVolumeFiles() {
+  const dir = firstExistingDir(possibleVolumeDirs);
+  if (!dir) return [];
   return fs
     .readdirSync(dir)
-    .filter(isMarkdown)
-    .sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
-    .map((filename) => {
-      const fullPath = path.join(dir, filename);
-      const content = fs.readFileSync(fullPath, 'utf8');
-      const slug = filename.replace(/\.md$/, '');
-      const number = filename.match(/^(\d{3}[a-z]?)/)?.[1];
-      const title = extractTitle(content, slug);
-      return { slug, filename, title, number, content };
-    });
+    .filter((name) => /^\d{3}-.+\.mdx?$/.test(name))
+    .sort()
+    .map((name) => path.join(dir, name));
 }
 
-export function getVolumeItems() {
-  return readDirectory('volume-01-relationships').filter((item) => /^\d{3}[a-z]?/.test(item.filename));
+export function splitBilingual(raw: string, lang: Lang) {
+  const parsed = matter(raw);
+  const content = parsed.content.trim();
+
+  const zhMarker = /##\s*中文正文\s*/i;
+  const enMarker = /##\s*English Version\s*/i;
+
+  const hasZh = zhMarker.test(content);
+  const hasEn = enMarker.test(content);
+
+  if (hasZh && hasEn) {
+    const beforeZh = content.split(zhMarker)[0];
+    const afterZh = content.split(zhMarker)[1];
+    const zhPart = afterZh.split(enMarker)[0].trim();
+    const enPart = content.split(enMarker)[1].trim();
+
+    const headings = beforeZh
+      .split(/\r?\n/)
+      .filter((line) => /^#\s+/.test(line))
+      .map(cleanTitle);
+
+    const title = lang === "zh" ? headings[0] || firstHeading(zhPart) : headings[1] || firstHeading(enPart);
+    return {
+      title,
+      body: lang === "zh" ? zhPart : enPart,
+    };
+  }
+
+  // Older files may be bilingual but not use the new markers.
+  // The fallback keeps Chinese on zh pages and full content on en pages unless a clear English section exists.
+  const englishIndex = content.search(/(^|\n)##\s*English|(^|\n)#\s*English|(^|\n)##\s*英文/i);
+  if (englishIndex >= 0) {
+    const zhPart = content.slice(0, englishIndex).trim();
+    const enPart = content.slice(englishIndex).replace(/^#+\s*(English|英文).*$/im, "").trim();
+    return {
+      title: lang === "zh" ? firstHeading(zhPart) : firstHeading(enPart) || firstHeading(content),
+      body: lang === "zh" ? stripMainHeadings(zhPart) : stripMainHeadings(enPart),
+    };
+  }
+
+  return {
+    title: firstHeading(content),
+    body: stripMainHeadings(content),
+  };
 }
 
-export function getVolumeItem(slug: string) {
-  return getVolumeItems().find((item) => item.slug === slug) ?? null;
+export async function markdownToHtml(markdown: string) {
+  const processed = await remark().use(html).process(markdown);
+  return processed.toString();
 }
 
-export function getDictionaryItems() {
-  return readDirectory('dictionary').filter((item) => /^\d{3}/.test(item.filename));
+export async function getVolumeChapters(lang: Lang) {
+  const files = getVolumeFiles();
+  return Promise.all(
+    files.map(async (file) => {
+      const raw = fs.readFileSync(file, "utf8");
+      const split = splitBilingual(raw, lang);
+      return {
+        slug: slugFromFilename(path.basename(file)),
+        filename: path.basename(file),
+        title: split.title || slugFromFilename(path.basename(file)),
+      };
+    })
+  );
 }
 
-export function getDictionaryItem(slug: string) {
-  return getDictionaryItems().find((item) => item.slug === slug) ?? null;
+export async function getVolumeChapter(slug: string, lang: Lang) {
+  const file = getVolumeFiles().find((f) => slugFromFilename(path.basename(f)) === slug);
+  if (!file) return null;
+  const raw = fs.readFileSync(file, "utf8");
+  const split = splitBilingual(raw, lang);
+  return {
+    slug,
+    title: split.title || slug,
+    html: await markdownToHtml(split.body),
+  };
 }
 
-export function getSpecialMarkdown(filename: string) {
-  const fullPath = path.join(contentRoot, 'volume-01-relationships', filename);
-  if (!fs.existsSync(fullPath)) return null;
-  const content = fs.readFileSync(fullPath, 'utf8');
-  return { filename, slug: filename.replace(/\.md$/, ''), title: extractTitle(content, filename), content };
+export function getDictionaryFiles() {
+  const dir = firstExistingDir(possibleDictionaryDirs);
+  if (!dir) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((name) => /^\d{3}-.+\.mdx?$/.test(name))
+    .sort()
+    .map((name) => path.join(dir, name));
 }
 
-export function extractTitle(content: string, fallback: string) {
-  const lines = content.split(/\r?\n/);
-  const heading = lines.find((line) => /^#\s+/.test(line.trim()));
-  if (heading) return heading.replace(/^#\s+/, '').trim();
-  return fallback
-    .replace(/\.md$/, '')
-    .replace(/^\d{3}[a-z]?[-_]?/, '')
-    .replace(/[-_]+/g, ' ')
-    .replace(/\b\w/g, (m) => m.toUpperCase());
+export async function getDictionaryEntries(lang: Lang) {
+  const files = getDictionaryFiles();
+  return Promise.all(
+    files.map(async (file) => {
+      const raw = fs.readFileSync(file, "utf8");
+      const split = splitBilingual(raw, lang);
+      return {
+        slug: slugFromFilename(path.basename(file)),
+        filename: path.basename(file),
+        title: split.title || firstHeading(raw) || slugFromFilename(path.basename(file)),
+      };
+    })
+  );
 }
