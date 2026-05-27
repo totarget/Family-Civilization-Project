@@ -1,6 +1,5 @@
 # Section XLII: Many Parents’ Greatest Mistake Is Not the Absence of Love — But Failing to See Their Children as Independent Human Beings
 
-Section XLII: Many Parents’ Greatest Mistake Is Not the Absence of Love — But Failing to See Their Children as Independent Human Beings
 Many parents genuinely love their children.
 They are willing to:
 Sacrifice money.

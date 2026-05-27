@@ -1,6 +1,5 @@
 # Section IX: Freedom Is the Soil of Human Development
 
-Section IX: Freedom Is the Soil of Human Development
 One of the greatest misunderstandings in many families is this:
 “Control is what makes children become better.”
 As a result:

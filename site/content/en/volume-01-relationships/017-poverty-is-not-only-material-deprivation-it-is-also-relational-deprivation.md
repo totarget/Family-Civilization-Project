@@ -1,6 +1,5 @@
 # Section XVII: Poverty Is Not Only Material Deprivation — It Is Also Relational Deprivation
 
-Section XVII: Poverty Is Not Only Material Deprivation — It Is Also Relational Deprivation
 When people hear the word “poverty,”
 they usually think of:
 Low income.

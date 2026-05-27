@@ -1,6 +1,5 @@
 # Section V: Boundaries Are the Beginning of Civilized Relationships
 
-Section V: Boundaries Are the Beginning of Civilized Relationships
 Many people believe the problems within families come from a lack of love.
 But in reality,
 the deeper problem in many families is this:

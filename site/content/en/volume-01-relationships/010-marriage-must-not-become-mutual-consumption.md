@@ -1,6 +1,5 @@
 # Section X: Marriage Must Not Become Mutual Consumption
 
-Section X: Marriage Must Not Become Mutual Consumption
 Many people grow up never truly witnessing a healthy intimate relationship.
 What they see instead is:
 Conflict.

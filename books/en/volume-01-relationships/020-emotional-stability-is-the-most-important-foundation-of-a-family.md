@@ -1,6 +1,5 @@
 # Section XX: Emotional Stability Is the Most Important Foundation of a Family
 
-Section XX: Emotional Stability Is the Most Important Foundation of a Family
 When people discuss family,
 they often focus on:
 Income.

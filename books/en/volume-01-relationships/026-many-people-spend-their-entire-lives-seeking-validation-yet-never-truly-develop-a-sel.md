@@ -1,6 +1,5 @@
 # Section XXVI: Many People Spend Their Entire Lives Seeking Validation — Yet Never Truly Develop a Self
 
-Section XXVI: Many People Spend Their Entire Lives Seeking Validation — Yet Never Truly Develop a Self
 Many people spend their entire lives pursuing:
 The approval of others.
 As children,

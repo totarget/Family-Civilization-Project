@@ -1,6 +1,5 @@
 # Section IV: Love Is Not Control
 
-Section IV: Love Is Not Control
 Throughout human history,
 few forms of harm have been more hidden than control disguised as love.
 Violence is easy to recognize.

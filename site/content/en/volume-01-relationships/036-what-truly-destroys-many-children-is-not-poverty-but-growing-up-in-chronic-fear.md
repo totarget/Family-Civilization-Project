@@ -1,6 +1,5 @@
 # Section XXXVI: What Truly Destroys Many Children Is Not Poverty — But Growing Up in Chronic Fear
 
-Section XXXVI: What Truly Destroys Many Children Is Not Poverty — But Growing Up in Chronic Fear
 Many people believe the greatest danger facing children is:
 Lack of money.
 Lack of resources.

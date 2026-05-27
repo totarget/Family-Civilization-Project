@@ -1,6 +1,5 @@
 # Section XLIV: Many Families Are Harmed Not Primarily by Conflict — But by the Inability to Safely Express Real Emotion
 
-Section XLIV: Many Families Are Harmed Not Primarily by Conflict — But by the Inability to Safely Express Real Emotion
 When people think about family harm,
 they often imagine:
 Arguments.

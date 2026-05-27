@@ -1,6 +1,5 @@
 # Section XXVII: One of the Greatest Human Awakenings Is Realizing You No Longer Need to Live as Others Expect
 
-Section XXVII: One of the Greatest Human Awakenings Is Realizing You No Longer Need to Live as Others Expect
 Many people spend little time in childhood asking:
 “Who do I truly want to become?”
 Instead,

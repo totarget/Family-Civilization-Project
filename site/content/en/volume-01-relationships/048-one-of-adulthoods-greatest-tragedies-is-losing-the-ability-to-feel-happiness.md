@@ -1,6 +1,5 @@
 # Section XLVIII: One of Adulthood’s Greatest Tragedies Is Losing the Ability to Feel Happiness
 
-Section XLVIII: One of Adulthood’s Greatest Tragedies Is Losing the Ability to Feel Happiness
 Many adults are not unsuccessful.
 In fact,
 many have already achieved:

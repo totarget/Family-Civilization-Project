@@ -1,6 +1,5 @@
 # Section XXVIII: The Deepest Wound in Many Families Is Not Conflict — It Is Living Unseen
 
-Section XXVIII: The Deepest Wound in Many Families Is Not Conflict — It Is Living Unseen
 Many people believe the deepest harm within families comes from:
 Arguments.
 Violence.

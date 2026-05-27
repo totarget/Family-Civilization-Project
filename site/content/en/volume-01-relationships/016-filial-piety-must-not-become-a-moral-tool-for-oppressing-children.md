@@ -1,6 +1,5 @@
 # Section XVI: Filial Piety Must Not Become a Moral Tool for Oppressing Children
 
-Section XVI: Filial Piety Must Not Become a Moral Tool for Oppressing Children
 In many East Asian families,
 filial piety originally represented:
 Gratitude, connection, responsibility, and love.

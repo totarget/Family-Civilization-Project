@@ -1,6 +1,5 @@
 # Section XXXI: True Maturity Begins When Human Beings Stop Confusing Love with Control
 
-Section XXXI: True Maturity Begins When Human Beings Stop Confusing Love with Control
 Much of what many people experienced as “love” in childhood
 was not truly love.
 It was:

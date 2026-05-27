@@ -1,6 +1,5 @@
 # Section XIII: One Must First Become Human Before Becoming a Parent
 
-Section XIII: One Must First Become Human Before Becoming a Parent
 There are many people in this world who become parents.
 But not everyone is truly prepared to be one.
 Because:

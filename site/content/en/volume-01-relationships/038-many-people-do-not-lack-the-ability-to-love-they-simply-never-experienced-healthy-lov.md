@@ -1,6 +1,5 @@
 # Section XXXVIII: Many People Do Not Lack the Ability to Love — They Simply Never Experienced Healthy Love Growing Up
 
-Section XXXVIII: Many People Do Not Lack the Ability to Love — They Simply Never Experienced Healthy Love Growing Up
 Many adults eventually discover within intimate relationships:
 They do not know how to love.
 Thus some people become:

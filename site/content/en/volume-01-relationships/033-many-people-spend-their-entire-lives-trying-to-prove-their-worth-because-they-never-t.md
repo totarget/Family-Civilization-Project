@@ -1,6 +1,5 @@
 # Section XXXIII: Many People Spend Their Entire Lives Trying to Prove Their Worth — Because They Never Truly Believed They Were Already Worthy of Love
 
-Section XXXIII: Many People Spend Their Entire Lives Trying to Prove Their Worth — Because They Never Truly Believed They Were Already Worthy of Love
 Many people grow up carrying one deep fear:
 “If I am not good enough,
 will I still deserve love?”

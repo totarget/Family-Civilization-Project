@@ -1,6 +1,5 @@
 # Section XI: Emotions Must Not Become Weapons Inside the Family
 
-Section XI: Emotions Must Not Become Weapons Inside the Family
 In many families,
 the deepest harm is not caused merely by words.
 It is caused by:

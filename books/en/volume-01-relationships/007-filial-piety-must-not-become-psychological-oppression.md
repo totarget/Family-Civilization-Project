@@ -1,6 +1,5 @@
 # Section VII: Filial Piety Must Not Become Psychological Oppression
 
-Section VII: Filial Piety Must Not Become Psychological Oppression
 Few concepts in human family systems contain as much complexity as filial piety.
 It carries within it:
 - Love 

@@ -1,6 +1,5 @@
 # Section VIII: Education Must Not Become Personality Conditioning
 
-Section VIII: Education Must Not Become Personality Conditioning
 Many people believe the purpose of education is to produce “successful people.”
 As a result:
 High scores.

@@ -1,6 +1,5 @@
 # Section XXXIV: One of Adulthood’s Greatest Tragedies Is Not Failure — It Is Losing the Ability to Truly Feel Joy
 
-Section XXXIV: One of Adulthood’s Greatest Tragedies Is Not Failure — It Is Losing the Ability to Truly Feel Joy
 As children,
 human beings often experience joy naturally.
 A falling leaf.

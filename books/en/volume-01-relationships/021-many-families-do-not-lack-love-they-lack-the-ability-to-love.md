@@ -1,6 +1,5 @@
 # Section XXI: Many Families Do Not Lack Love — They Lack the Ability to Love
 
-Section XXI: Many Families Do Not Lack Love — They Lack the Ability to Love
 Many parents say:
 “Everything I do is for my child.”
 “Of course I love my children.”

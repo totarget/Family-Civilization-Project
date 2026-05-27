@@ -1,6 +1,5 @@
 # Section XLV: Many People Spend Their Entire Lives Trapped Inside Fear-Based Personality
 
-Section XLV: Many People Spend Their Entire Lives Trapped Inside Fear-Based Personality
 Many adults appear externally:
 Normal.
 Rational.

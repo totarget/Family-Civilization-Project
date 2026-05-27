@@ -1,6 +1,5 @@
 # Section XII: Boundaries Are the Beginning of Healthy Relationships
 
-Section XII: Boundaries Are the Beginning of Healthy Relationships
 One of the greatest things missing in many East Asian families is:
 Healthy boundaries.
 Many people grow up never truly possessing:

@@ -1,6 +1,5 @@
 # Section XXXVII: True Freedom Is Not the Absence of Rules — It Is No Longer Being Controlled by Fear and Judgment
 
-Section XXXVII: True Freedom Is Not the Absence of Rules — It Is No Longer Being Controlled by Fear and Judgment
 Many people believe freedom means:
 Doing whatever one wants.
 Having no restrictions.

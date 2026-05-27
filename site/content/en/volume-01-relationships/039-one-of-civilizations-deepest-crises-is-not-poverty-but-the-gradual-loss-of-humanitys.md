@@ -1,6 +1,5 @@
 # Section XXXIX: One of Civilization’s Deepest Crises Is Not Poverty — But the Gradual Loss of Humanity’s Ability to Build Real Relationships
 
-Section XXXIX: One of Civilization’s Deepest Crises Is Not Poverty — But the Gradual Loss of Humanity’s Ability to Build Real Relationships
 Modern society is producing an increasingly visible paradox:
 Human beings possess more tools for connection than ever before,
 yet people feel increasingly:

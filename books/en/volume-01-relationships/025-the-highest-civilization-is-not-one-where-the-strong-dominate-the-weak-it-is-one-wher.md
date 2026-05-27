@@ -1,6 +1,5 @@
 # Section XXV: The Highest Civilization Is Not One Where the Strong Dominate the Weak — It Is One Where the Strong No Longer Need to Harm the Weak
 
-Section XXV: The Highest Civilization Is Not One Where the Strong Dominate the Weak — It Is One Where the Strong No Longer Need to Harm the Weak
 Throughout human history,
 many civilizations have been built upon:
 Power.

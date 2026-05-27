@@ -1,6 +1,5 @@
 # Section XXXV: Many People Spend Their Lives Desperately Wanting to Be Seen — Because They Were Never Truly Seen as Children
 
-Section XXXV: Many People Spend Their Lives Desperately Wanting to Be Seen — Because They Were Never Truly Seen as Children
 Deep inside many adults lives one powerful longing:
 “Does anyone truly understand me?”
 “Has anyone ever truly seen me?”

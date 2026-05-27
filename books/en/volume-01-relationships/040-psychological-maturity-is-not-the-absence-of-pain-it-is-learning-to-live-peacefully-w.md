@@ -1,6 +1,5 @@
 # Section XL: Psychological Maturity Is Not the Absence of Pain — It Is Learning to Live Peacefully with One’s Own Suffering
 
-Section XL: Psychological Maturity Is Not the Absence of Pain — It Is Learning to Live Peacefully with One’s Own Suffering
 Many people grow up being taught:
 Do not be weak.
 Do not suffer.

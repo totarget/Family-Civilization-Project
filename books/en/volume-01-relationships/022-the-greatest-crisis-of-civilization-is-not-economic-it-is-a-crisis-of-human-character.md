@@ -1,6 +1,5 @@
 # Section XXII: The Greatest Crisis of Civilization Is Not Economic — It Is a Crisis of Human Character
 
-Section XXII: The Greatest Crisis of Civilization Is Not Economic — It Is a Crisis of Human Character
 Throughout history,
 people have feared:
 Economic collapse.

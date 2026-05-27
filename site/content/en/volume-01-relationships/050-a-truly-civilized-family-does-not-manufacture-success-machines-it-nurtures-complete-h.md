@@ -1,6 +1,5 @@
 # Section L: A Truly Civilized Family Does Not Manufacture Success Machines — It Nurtures Complete Human Beings
 
-Section L: A Truly Civilized Family Does Not Manufacture Success Machines — It Nurtures Complete Human Beings
 For a very long time,
 many family systems pursued only one goal:
 Success.

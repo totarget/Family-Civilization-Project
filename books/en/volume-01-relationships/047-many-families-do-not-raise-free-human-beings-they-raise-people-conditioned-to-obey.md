@@ -1,6 +1,5 @@
 # Section XLVII: Many Families Do Not Raise Free Human Beings — They Raise People Conditioned to Obey
 
-Section XLVII: Many Families Do Not Raise Free Human Beings — They Raise People Conditioned to Obey
 Many parents most admire one quality in children:
 Obedience.
 Obedience means:

@@ -1,6 +1,5 @@
 # Section XLI: Many People Spend Their Lives Seeking Value from the Outside — Because They Never Built Inner Worth
 
-Section XLI: Many People Spend Their Lives Seeking Value from the Outside — Because They Never Built Inner Worth
 Many people spend their entire lives trying to prove themselves.
 To prove they are:
 Successful enough.

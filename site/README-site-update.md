@@ -1,10 +1,14 @@
-# Family Civilization Project Website Update
+# Family Civilization Site Update
 
-This site package uses the latest Chinese publish-ready Markdown files and the completed English KDP Markdown manuscript.
+This site package restores the main navigation menu and aligns it with the GitHub directory structure:
 
-Content directories:
+- `books/`
+- `dictionary/`
+- `video/long-videos/`
+- `video/short-videos/`
+- `ai-family-civilization-advisor/`
+- `site/`
 
-- `content/zh/volume-01-relationships/`
-- `content/en/volume-01-relationships/`
+It also fixes duplicate chapter titles by cleaning manuscript Markdown and by rendering chapter pages without repeating the first H1 inside the body.
 
-Deploy by replacing the repository root `site/` directory with this folder, then commit and push to GitHub.
+The new afterword is included as chapter `101-afterword-from-family-civilization-to-ai-family-civilization.md` in both Chinese and English content.

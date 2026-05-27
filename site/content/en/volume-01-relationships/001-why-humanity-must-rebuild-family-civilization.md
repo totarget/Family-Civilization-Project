@@ -1,6 +1,5 @@
 # Section I: Why Humanity Must Rebuild Family Civilization
 
-Section I: Why Humanity Must Rebuild Family Civilization
 Humanity has created extraordinary modern civilization.
 We built skyscrapers.
 Invented the internet.

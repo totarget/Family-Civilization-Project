@@ -1,6 +1,5 @@
 # Section XXXII: The Greatest Failure of Education Is Not Poor Grades — It Is Gradually Destroying Human Vitality
 
-Section XXXII: The Greatest Failure of Education Is Not Poor Grades — It Is Gradually Destroying Human Vitality
 Many people believe the primary goal of education is:
 High scores.
 Prestigious schools.

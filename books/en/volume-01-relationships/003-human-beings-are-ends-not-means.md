@@ -1,6 +1,5 @@
 # Section III: Human Beings Are Ends, Not Means
 
-Section III: Human Beings Are Ends, Not Means
 Throughout most of human history, civilizations, kingdoms, religions, and families all attempted to define what a human being was.
 But it was not until the eighteenth century that humanity seriously asked, at a philosophical level:
 What is a human being?

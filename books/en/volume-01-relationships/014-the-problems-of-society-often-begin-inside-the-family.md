@@ -1,6 +1,5 @@
 # Section XIV: The Problems of Society Often Begin Inside the Family
 
-Section XIV: The Problems of Society Often Begin Inside the Family
 Many people believe:
 Family belongs to the private sphere,
 while social problems belong to the public sphere.

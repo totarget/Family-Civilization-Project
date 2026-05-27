@@ -1,6 +1,5 @@
 # Section XIX: Many People Spend Their Entire Lives Trying to Prove They Deserve Love
 
-Section XIX: Many People Spend Their Entire Lives Trying to Prove They Deserve Love
 Many people live with a deep inner anxiety:
 “Am I good enough?”
 “If I fail, will anyone still love me?”

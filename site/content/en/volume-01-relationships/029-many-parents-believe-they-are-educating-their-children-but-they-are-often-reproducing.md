@@ -1,6 +1,5 @@
 # Section XXIX: Many Parents Believe They Are Educating Their Children — But They Are Often Reproducing Their Own Fear
 
-Section XXIX: Many Parents Believe They Are Educating Their Children — But They Are Often Reproducing Their Own Fear
 Many parents say:
 “I’m doing this for your own good.”
 “I’m afraid you’ll suffer later.”

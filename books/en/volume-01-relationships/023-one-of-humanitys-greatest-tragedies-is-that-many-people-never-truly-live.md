@@ -1,6 +1,5 @@
 # Section XXIII: One of Humanity’s Greatest Tragedies Is That Many People Never Truly Live
 
-Section XXIII: One of Humanity’s Greatest Tragedies Is That Many People Never Truly Live
 Many people appear to be alive.
 They work.
 Eat.

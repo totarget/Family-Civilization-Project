@@ -1,6 +1,5 @@
 # Section XVIII: True Freedom Is Not Escaping Relationships — It Is Escaping Control
 
-Section XVIII: True Freedom Is Not Escaping Relationships — It Is Escaping Control
 Many people grow up carrying a deep desire:
 “I want to leave this family.”
 “I don’t want to be controlled anymore.”

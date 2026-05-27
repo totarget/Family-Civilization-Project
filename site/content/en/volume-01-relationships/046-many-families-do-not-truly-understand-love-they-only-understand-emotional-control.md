@@ -1,6 +1,5 @@
 # Section XLVI: Many Families Do Not Truly Understand Love — They Only Understand Emotional Control
 
-Section XLVI: Many Families Do Not Truly Understand Love — They Only Understand Emotional Control
 Many people grow up believing:
 Control inside the family is love.
 Parents interfere,

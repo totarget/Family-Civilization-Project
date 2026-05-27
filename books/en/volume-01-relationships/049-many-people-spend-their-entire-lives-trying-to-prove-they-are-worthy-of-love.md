@@ -1,6 +1,5 @@
 # Section XLIX: Many People Spend Their Entire Lives Trying to Prove They Are Worthy of Love
 
-Section XLIX: Many People Spend Their Entire Lives Trying to Prove They Are Worthy of Love
 Many adults appear to pursue:
 Success.
 Excellence.

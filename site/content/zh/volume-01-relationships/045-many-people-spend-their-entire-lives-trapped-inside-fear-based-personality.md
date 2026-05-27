@@ -4,7 +4,6 @@
 
 ---
 
-第四十五节：很多人的一生，都困在“恐惧型人格”里
 Volume I: Relationships
 
 ---

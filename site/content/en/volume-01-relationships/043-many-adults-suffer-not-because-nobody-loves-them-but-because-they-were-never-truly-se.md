@@ -1,6 +1,5 @@
 # Section XLIII: Many Adults Suffer Not Because Nobody Loves Them — But Because They Were Never Truly Seen as Children
 
-Section XLIII: Many Adults Suffer Not Because Nobody Loves Them — But Because They Were Never Truly Seen as Children
 Many adults carry a deep emptiness that is difficult to describe.
 Their parents raised them.
 Their families may not have completely collapsed.

@@ -1,6 +1,5 @@
 # Section XV: Education Must Not Manufacture Standardized Human Parts
 
-Section XV: Education Must Not Manufacture Standardized Human Parts
 One of the greatest yet most overlooked dangers in modern education is this:
 Many people are not receiving an education for human development.
 Instead,

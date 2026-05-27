@@ -1,6 +1,5 @@
 # Section VI: How Trauma Is Passed Down Through Families
 
-Section VI: How Trauma Is Passed Down Through Families
 Many people believe trauma exists only in extremely dysfunctional families.
 Families with:
 Domestic violence.

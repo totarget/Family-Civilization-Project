@@ -1,6 +1,5 @@
 # Section XXX: The True Maturity of Civilization Is Not Becoming More Successful — It Is Creating Less Suffering
 
-Section XXX: The True Maturity of Civilization Is Not Becoming More Successful — It Is Creating Less Suffering
 For a long time,
 human civilization has pursued:
 More powerful technology.

@@ -1,6 +1,5 @@
 # Section XXIV: True Education Is Not Turning Children into Success Machines — It Is Helping Them Become Whole Human Beings
 
-Section XXIV: True Education Is Not Turning Children into Success Machines — It Is Helping Them Become Whole Human Beings
 Today when families discuss education,
 they often focus on:
 Grades.
