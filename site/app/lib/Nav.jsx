@@ -1,4 +1,4 @@
-export default function Nav({ lang }: { lang: 'zh' | 'en' }) {
+export default function Nav({ lang }) {
  const other = lang === 'zh' ? '/en' : '/zh';
  const t = lang === 'zh'
   ? { home:'首页', start:'从这里开始', manifesto:'宣言', books:'书籍', dictionary:'词典', video:'视频', ai:'AI顾问', about:'关于', github:'GitHub', switch:'English' }
