@@ -1,0 +1,13 @@
+The endpoint of self-repair is not remaining forever inside the self. It is re-entering relationship, responsibility, and civilizational construction. Adler’s social interest gives the Family Civilization Project this turn. A healthy person does not only escape pain, build self-esteem, protect boundaries, and become oneself; more importantly, such a person regains the ability to cooperate, care, take responsibility, and build shared life.
+
+Let the wound stop with me is the ethical conclusion of the relationship with oneself. It does not require the wounded person to take responsibility for the one who harmed, to forgive immediately, or to continue enduring. It means: harm once happened to me, but I will not let it continue through me into my partner, children, and the next generation.
+
+This requires clarity. A person raised in violence must acknowledge that violent reactions may live in the body. A person raised in humiliation must acknowledge the possibility of humiliating others under pressure. A person raised in control must acknowledge the tendency to mistake control for love. A person raised without love must acknowledge the tendency to demand compensation from partners and children.
+
+Freud helps us see that repressed trauma returns. Jung helps us see that unintegrated shadow acts through us. Adler helps us see that untransformed inferiority enters community through compensation, control, and superiority. The Family Civilization Project integrates these into one sentence: wounds that are not seen will enter relationships; wounds that are seen, soothed, and integrated may stop being transmitted.
+
+Moving from self-repair to family civilization includes five transformations: from “Why am I in pain?” to “How do I stop transferring pain?”; from “Who owes me love?” to “How do I regain the capacity to love?”; from “How do I protect myself?” to “How do I protect myself while respecting others?”; from “How do I become myself?” to “How do I enter shared life with my authentic self?”; from “How do I heal the past?” to “How do I build the future?”
+
+Family civilization is not an abstract slogan. It is a choice in concrete moments: when a child makes a mistake, not using the humiliating language once used by parents; when a partner becomes cold, not immediately projecting childhood abandonment; when anxiety arises, not throwing it onto the child’s grades and life; when control arises, pausing to ask: “Am I loving, or using control to seek safety?”
+
+A person may begin as a victim, but cannot remain only in victim identity forever. Eventually, one must become witness, repairer, and builder. Let the wound stop with me is not only a personal vow; it is the beginning of family civilization.
