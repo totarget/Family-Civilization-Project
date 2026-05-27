@@ -1,2 +1,0 @@
-import Nav from '@/app/lib/Nav';
-export default function Page(){return <><Nav lang="en"/><main className="container"><div className="eyebrow">Books</div><h1 className="h1">Family Civilization Books</h1><div className="cards"><a className="card" href="/en/books/volume-01-relationships"><h3>Volume I: Relationships</h3><p>Independent English edition.</p></a></div></main><footer className="footer">Family Civilization Project</footer></>}
