@@ -1,2 +1,2 @@
-import Nav from '../../lib/Nav';
+import Nav from '@/app/lib/Nav';
 export default function Page(){return <><Nav lang="zh"/><main className="container"><section className="hero"><div><div className="eyebrow">Family Civilization Project</div><h1 className="h1">关于</h1><p className="lead">David / 刘岗，家庭文明工程发起人。家庭文明的提出者、建设者与终身实践者。</p></div><div className="heroimg"><img src="/images/humans-are-ends-theme.jpg" alt="HUMANS ARE ENDS"/></div></section><section className="cards"><a className="card" href="/zh/start-here"><h3>从这里开始</h3><p>了解项目入口。</p></a><a className="card" href="/zh/books"><h3>书籍</h3><p>查看书稿。</p></a></section></main><footer className="footer">David / 刘岗 · Family Civilization Project</footer></>}
