@@ -1,3 +1,3 @@
-// This file is intentionally kept minimal.
-// Humans Are Ends pages use static page-local content to avoid Vercel type-check failures.
-export const humansContentVersion = 'static-2026-05-28';
+// Static placeholder module for HUMANS ARE ENDS pages.
+// Kept only to neutralize older imports during deployment.
+export const humansContentVersion = 'static-safe-2026-05-29';

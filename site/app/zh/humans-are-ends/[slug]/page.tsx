@@ -58,7 +58,7 @@ export function generateStaticParams() {
 
 export default function HumansArticleZhPage({ params }: { params: { slug: string } }) {
   const article = articles[params.slug];
-  if (!article) return notFound();
+  if (!article) notFound();
 
   return (
     <main className="page-wrap article-wrap">

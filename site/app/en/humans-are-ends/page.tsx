@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
 const articles = [
-  ['001-why-humans-are-ends-matters-to-family-civilization', 'Why Humans Are Ends Matters to Family Civilization'],
-  ['002-socrates-the-examined-life-and-the-human-soul', 'Socrates: The Examined Life and the Human Soul'],
-  ['003-plato-justice-soul-and-the-danger-of-turning-people-into-functions', 'Plato: Justice, Soul, and the Danger of Turning People into Functions'],
-  ['004-aristotle-flourishing-and-the-family-as-first-soil', 'Aristotle: Flourishing and the Family as the First Soil'],
-  ['005-stoicism-citizens-of-the-world-and-inner-dignity', 'Stoicism: Citizens of the World and Inner Dignity'],
-  ['006-from-ancient-philosophy-to-family-civilization', 'From Ancient Philosophy to Family Civilization'],
+  { slug: '001-why-humans-are-ends-matters-to-family-civilization', title: 'Why Humans Are Ends Matters to Family Civilization' },
+  { slug: '002-socrates-the-examined-life-and-the-human-soul', title: 'Socrates: The Examined Life and the Human Soul' },
+  { slug: '003-plato-justice-soul-and-the-danger-of-turning-people-into-functions', title: 'Plato: Justice, Soul, and the Danger of Turning People into Functions' },
+  { slug: '004-aristotle-flourishing-and-the-family-as-first-soil', title: 'Aristotle: Flourishing and the Family as the First Soil' },
+  { slug: '005-stoicism-citizens-of-the-world-and-inner-dignity', title: 'Stoicism: Citizens of the World and Inner Dignity' },
+  { slug: '006-from-ancient-philosophy-to-family-civilization', title: 'From Ancient Philosophy to Family Civilization' },
 ];
 
 export default function HumansAreEndsEnPage() {
@@ -22,10 +22,10 @@ export default function HumansAreEndsEnPage() {
         </p>
       </section>
       <section className="card-grid">
-        {articles.map(([slug, title]) => (
-          <article className="card" key={slug}>
-            <h2>{title}</h2>
-            <Link href={`/en/humans-are-ends/${slug}`}>Read article →</Link>
+        {articles.map((article) => (
+          <article className="card" key={article.slug}>
+            <h2>{article.title}</h2>
+            <Link href={`/en/humans-are-ends/${article.slug}`}>Read article →</Link>
           </article>
         ))}
       </section>
