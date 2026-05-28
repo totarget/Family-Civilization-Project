@@ -1,15 +1,29 @@
 import Link from 'next/link';
+import { getHumansArticles } from '../../lib/humansContent';
 
 export default function HumansAreEndsEnPage() {
+  const articles = getHumansArticles('en');
+
   return (
-    <main className="min-h-screen bg-[#fbfbfd] text-[#1d1d1f]">
-      <section className="mx-auto max-w-5xl px-6 py-16">
-        <div className="mb-8 text-sm"><Link href="/en">← Back Home</Link></div>
-        <p className="text-sm tracking-[0.24em] uppercase text-neutral-500">Philosophical Foundation</p>
-        <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-6xl">HUMANS ARE ENDS</h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-700">
-          This section is the philosophical foundation of the Family Civilization Project. The first Chinese batch has been prepared, beginning with ancient Greek philosophy and moving toward Kant, human dignity, family civilization, and AI ethics. A native English edition will be expanded in later updates.
+    <main className="page-wrap">
+      <Link className="back-link" href="/en">← Back Home</Link>
+
+      <section className="hero small-hero">
+        <p className="eyebrow">Philosophical Foundation</p>
+        <h1>HUMANS ARE ENDS</h1>
+        <p className="subtitle">Human beings are ends, not tools.</p>
+        <p className="lead">
+          This section is the philosophical foundation of the Family Civilization Project. It begins with ancient Greek philosophy and gradually moves toward Kant, human dignity, family civilization, and AI ethics.
         </p>
+      </section>
+
+      <section className="card-grid">
+        {articles.map((article) => (
+          <article className="card" key={article.slug}>
+            <h2>{article.title}</h2>
+            <Link href={`/en/humans-are-ends/${article.slug}`}>Read article →</Link>
+          </article>
+        ))}
       </section>
     </main>
   );
