@@ -8,8 +8,8 @@ const ARTICLES = {
       "“人是目的，不是工具”不是一句抽象口号，而是家庭文明工程的第一块地基。",
       "一个家庭是否文明，首先不看它有多富有，也不看孩子成绩有多高，而看这个家庭里的人是否被当成人。",
       "当孩子被当成成绩工具，教育就会变成驯化；当伴侣被当成情绪工具，婚姻就会变成消耗；当父母被当成养老工具，亲情也会变成交易。",
-      "家庭文明要做的第一件事，就是让每个家庭成员重新回到人的位置上。孩子不是父母的项目，伴侣不是彼此的附属品，AI也不应该把人变成数据和流量。",
-      "因此，HUMANS ARE ENDS 是整个工程的哲学起点。它告诉我们：任何方法、技术、教育、商业和AI系统，都必须服务于人的尊严、自由、爱和幸福。"
+      "家庭文明要做的第一件事，就是让每个家庭成员重新回到人的位置上。孩子不是父母的项目，伴侣不是彼此的附属品，AI 也不应该把人变成数据和流量。",
+      "因此，HUMANS ARE ENDS 是整个工程的哲学起点。它告诉我们：任何方法、技术、教育、商业和 AI 系统，都必须服务于人的尊严、自由、爱和幸福。"
     ],
   },
   "002-socrates-the-examined-life-and-the-human-soul": {
@@ -70,9 +70,9 @@ export default function HumansAreEndsArticlePage({ params }) {
     return (
       <>
         <Nav lang="zh" />
-        <main className="page">
+        <main className="article">
           <p>文章尚未建立。</p>
-          <Link href="/zh/humans-are-ends">返回 HUMANS ARE ENDS</Link>
+          <Link className="button" href="/zh/humans-are-ends">返回 HUMANS ARE ENDS</Link>
         </main>
       </>
     );
@@ -81,17 +81,15 @@ export default function HumansAreEndsArticlePage({ params }) {
   return (
     <>
       <Nav lang="zh" />
-      <main className="article-page">
+      <main className="article">
         <p className="eyebrow">HUMANS ARE ENDS</p>
         <h1>{article.title}</h1>
-        <div className="article-body">
-          {article.paragraphs.map((p, index) => (
-            <p key={index}>{p}</p>
-          ))}
-        </div>
-        <footer className="footer">
-          <Link href="/zh/humans-are-ends">返回 HUMANS ARE ENDS</Link>
-        </footer>
+        {article.paragraphs.map((p, index) => (
+          <p key={index}>{p}</p>
+        ))}
+        <p>
+          <Link className="button" href="/zh/humans-are-ends">返回 HUMANS ARE ENDS</Link>
+        </p>
       </main>
     </>
   );

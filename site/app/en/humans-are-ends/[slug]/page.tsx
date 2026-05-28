@@ -70,9 +70,9 @@ export default function HumansAreEndsArticlePage({ params }) {
     return (
       <>
         <Nav lang="en" />
-        <main className="page">
+        <main className="article">
           <p>Article not found yet.</p>
-          <Link href="/en/humans-are-ends">Back to HUMANS ARE ENDS</Link>
+          <Link className="button" href="/en/humans-are-ends">Back to HUMANS ARE ENDS</Link>
         </main>
       </>
     );
@@ -81,17 +81,15 @@ export default function HumansAreEndsArticlePage({ params }) {
   return (
     <>
       <Nav lang="en" />
-      <main className="article-page">
+      <main className="article">
         <p className="eyebrow">HUMANS ARE ENDS</p>
         <h1>{article.title}</h1>
-        <div className="article-body">
-          {article.paragraphs.map((p, index) => (
-            <p key={index}>{p}</p>
-          ))}
-        </div>
-        <footer className="footer">
-          <Link href="/en/humans-are-ends">Back to HUMANS ARE ENDS</Link>
-        </footer>
+        {article.paragraphs.map((p, index) => (
+          <p key={index}>{p}</p>
+        ))}
+        <p>
+          <Link className="button" href="/en/humans-are-ends">Back to HUMANS ARE ENDS</Link>
+        </p>
       </main>
     </>
   );
