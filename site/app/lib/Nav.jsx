@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-export default function Nav({ lang = 'zh' }) {
+export default function Nav({ lang }) {
   const isZh = lang === 'zh';
   const home = isZh ? '/zh' : '/en';
   const other = isZh ? '/en' : '/zh';
 
-  const labels = isZh
+  const t = isZh
     ? {
         brand: '家庭文明工程 Family Civilization Project',
         home: '首页',
@@ -14,11 +14,11 @@ export default function Nav({ lang = 'zh' }) {
         books: '书籍',
         humans: 'HUMANS ARE ENDS',
         dictionary: '词典',
-        videos: '视频',
+        video: '视频',
+        substack: 'Substack',
         ai: 'AI顾问',
         about: '关于',
-        github: 'GitHub',
-        switchLang: 'English',
+        switch: 'English',
       }
     : {
         brand: 'Family Civilization Project',
@@ -28,46 +28,35 @@ export default function Nav({ lang = 'zh' }) {
         books: 'Books',
         humans: 'HUMANS ARE ENDS',
         dictionary: 'Dictionary',
-        videos: 'Videos',
+        video: 'Videos',
+        substack: 'Substack',
         ai: 'AI Advisor',
         about: 'About',
-        github: 'GitHub',
-        switchLang: '中文',
+        switch: '中文',
       };
 
   const links = [
-    [home, labels.home],
-    [`${home}/start-here`, labels.start],
-    [`${home}/manifesto`, labels.manifesto],
-    [`${home}/books`, labels.books],
-    [`${home}/humans-are-ends`, labels.humans],
-    [`${home}/dictionary`, labels.dictionary],
-    [`${home}/videos`, labels.videos],
-    [`${home}/ai-advisor`, labels.ai],
-    [`${home}/about`, labels.about],
+    [home, t.home],
+    [`${home}/start-here`, t.start],
+    [`${home}/manifesto`, t.manifesto],
+    [`${home}/books`, t.books],
+    [`${home}/humans-are-ends`, t.humans],
+    [`${home}/dictionary`, t.dictionary],
+    [`${home}/video`, t.video],
+    [`${home}/substack`, t.substack],
+    [`${home}/ai-family-civilization-advisor`, t.ai],
+    [`${home}/about`, t.about],
   ];
 
   return (
-    <header className="nav">
-      <Link className="brand" href={home}>
-        {labels.brand}
-      </Link>
-
-      <nav className="navlinks" aria-label="Main navigation">
-        {links.map(([href, text]) => (
-          <Link key={href} href={href}>
-            {text}
-          </Link>
+    <nav className="nav">
+      <Link className="brand" href={home}>{t.brand}</Link>
+      <div className="navlinks">
+        {links.map(([href, label]) => (
+          <Link key={href} href={href}>{label}</Link>
         ))}
-        <a
-          href="https://github.com/totarget/Family-Civilization-Project"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {labels.github}
-        </a>
-        <Link href={other}>{labels.switchLang}</Link>
-      </nav>
-    </header>
+        <Link href={other}>{t.switch}</Link>
+      </div>
+    </nav>
   );
 }
