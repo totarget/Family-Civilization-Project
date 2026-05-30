@@ -1,52 +1,34 @@
-# Substack Archive / Substack 文章归档
+# Substack 中文版文章归档
 
-This directory archives English Substack essays of the Family Civilization Project.
+本目录用于归档《家庭文明工程》英文 Substack 文章对应的中文版本。
 
-Recommended public channel: https://familyciv.substack.com/
+这些中文稿以英文 Substack 正文为基础，不做机械直译，而是改写为适合中文读者、微信公众号、中文网站阅读的正式中文公共文章。
 
-## Naming Convention
+## 当前文件
 
-Use a stable numeric sequence:
+- `001-human-beings-are-ends-zh.md`：人是目的
+- `002-children-are-not-parental-projects-zh.md`：孩子不是父母的项目
+- `003-a-child-is-not-born-to-obey-zh.md`：孩子不是为了服从而出生的
 
-```text
-001-human-beings-are-ends.md
-002-children-are-not-parental-projects.md
-003-a-child-is-not-born-to-obey.md
-004-the-family-is-not-a-place-of-ownership.md
-```
-
-## Suggested Directory Structure
+## 建议路径
 
 ```text
 substack/
 ├── README.md
-├── 2026/
-│   ├── 001-human-beings-are-ends.md
-│   ├── 002-children-are-not-parental-projects.md
-│   ├── 003-a-child-is-not-born-to-obey.md
-│   └── 004-the-family-is-not-a-place-of-ownership.md
-└── index.md
-```
-
-Alternative flat structure:
-
-```text
-substack/
-├── README.md
+├── index.md
 ├── 001-human-beings-are-ends.md
 ├── 002-children-are-not-parental-projects.md
 ├── 003-a-child-is-not-born-to-obey.md
-└── 004-the-family-is-not-a-place-of-ownership.md
+└── zh/
+    ├── README.md
+    ├── index.md
+    ├── 001-human-beings-are-ends-zh.md
+    ├── 002-children-are-not-parental-projects-zh.md
+    └── 003-a-child-is-not-born-to-obey-zh.md
 ```
 
-For the current stage, the flat structure is simpler and easier to maintain. A year-based structure can be introduced later when the archive grows beyond 100 articles.
+网站中文版如需直接读取中文文章，可同步镜像到：
 
-## Editorial Principle
-
-Substack essays should be native English public essays, not mechanical translations of Chinese chapters. They should serve as the English-world public entrance into the Family Civilization Project, coordinated with:
-
-- Amazon KDP book
-- familyciv.com
-- GitHub archive
-- YouTube long videos
-- AI Family Civilization Advisor
+```text
+site/content/zh/substack/
+```
