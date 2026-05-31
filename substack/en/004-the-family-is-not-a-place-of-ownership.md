@@ -1,17 +1,6 @@
----
-title: "The Family Is Not a Place of Ownership"
-subtitle: "No one enters a family in order to become someone else’s possession."
-date: "2026-05-30"
-author: "David Liu"
-language: "en"
-series: "Family Civilization Project"
-number: 004
-slug: "the-family-is-not-a-place-of-ownership"
----
-
 # The Family Is Not a Place of Ownership
 
-No one enters a family in order to become someone else’s possession.
+## No one enters a family in order to become someone else’s possession.
 
 A child is not born to be owned by the parents.  
 A spouse does not enter marriage to become the property of another person.  
@@ -248,10 +237,3 @@ I am a human being.
 
 And because I am a human being,  
 I deserve dignity, freedom, love, and the possibility of true happiness.
-
----
-
-**Author:** David Liu  
-**Project:** Family Civilization Project  
-**Book:** *Please Treat the Child as a Person*  
-**Core Principle:** Human beings are ends, not means.

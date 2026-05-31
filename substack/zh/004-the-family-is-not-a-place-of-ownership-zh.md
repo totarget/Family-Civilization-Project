@@ -1,17 +1,5 @@
----
-title: "家庭不是占有的地方"
-subtitle: "没有任何一个人进入家庭，是为了成为另一个人的所有物。"
-date: "2026-05-30"
-author: "David Liu / 刘岗"
-language: "zh"
-series: "家庭文明工程"
-number: 004
-slug: "the-family-is-not-a-place-of-ownership"
----
-
 # 家庭不是占有的地方
-
-没有任何一个人进入家庭，是为了成为另一个人的所有物。
+## 没有任何一个人进入家庭，是为了成为另一个人的所有物。
 
 孩子不是生下来让父母占有的。  
 伴侣不是走进婚姻后，就变成另一个人的私有财产。  
@@ -283,10 +271,3 @@ slug: "the-family-is-not-a-place-of-ownership"
 
 因为我是一个人，  
 所以我应该拥有尊严、自由、爱，以及获得真正幸福的可能。
-
----
-
-**作者：** David Liu / 刘岗  
-**项目：** 家庭文明工程 / Family Civilization Project  
-**书籍：** 《请把孩子当成一个人》  
-**核心原则：** 人是目的，不是手段。
